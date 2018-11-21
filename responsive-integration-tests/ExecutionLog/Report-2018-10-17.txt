@@ -1,0 +1,65 @@
+Oct 17,2018 16:41:18 [info]  Launching browser chrome 69.0.3497.100
+Oct 17,2018 16:41:40 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 17,2018 16:41:40 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 17,2018 16:41:54 [info]  Assert Find Motorcycle Dealers page.
+Oct 17,2018 16:42:00 [info]  Assert Find Dealers Fields And Button
+Oct 17,2018 16:42:01 [info]  Find Dealer with name and Assert Results
+Oct 17,2018 16:42:13 [info]  Assert searched dealers at Dealer Result page.
+Oct 17,2018 16:42:13 [info]  Click On Dealer Grid Link And Assert Page.
+Oct 17,2018 16:42:27 [info]  Assert Start Over
+Oct 17,2018 16:42:33 [info]  Click On Filter Link And Assert Collapse Section.
+Oct 17,2018 16:49:01 [info]  Launching browser chrome 69.0.3497.100
+Oct 17,2018 16:49:18 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 17,2018 16:49:18 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 17,2018 16:49:33 [info]  Assert Find Motorcycle Dealers page.
+Oct 17,2018 16:49:37 [info]  Assert Find Dealers Fields And Button
+Oct 17,2018 16:49:38 [info]  Find Dealer with name and Assert Results
+Oct 17,2018 16:49:50 [info]  Assert searched dealers at Dealer Result page.
+Oct 17,2018 16:49:50 [info]  Click On Dealer Grid Link And Assert Page.
+Oct 17,2018 16:50:04 [info]  Assert Auto suggestion drop down.
+Oct 17,2018 16:50:04 [info]  Click on Keyword option on Advaned Search
+Oct 17,2018 16:50:17 [info]  Get Keyword
+Oct 17,2018 16:51:08 [info]  Oct 17,2018 16:51:08 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.trader.pagehelper.SearchHelper.assertAutoSuggestionDropDown(SearchHelper.java:1231)
+	at com.trader.scripts.DealersPage.searchWithKeywordAtDealerDetailsPage(DealersPage.java:298)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Oct 17,2018 16:59:56 [info]  Launching browser chrome 69.0.3497.100
+Oct 17,2018 17:00:13 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 17,2018 17:00:13 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 17,2018 17:00:32 [info]  Assert Find Motorcycle Dealers page.
+Oct 17,2018 17:00:37 [info]  Assert Find Dealers Fields And Button
+Oct 17,2018 17:00:37 [info]  Find Dealer with name and Assert Results
+Oct 17,2018 17:00:51 [info]  Assert searched dealers at Dealer Result page.
+Oct 17,2018 17:00:51 [info]  Click On Dealer Grid Link And Assert Page.
+Oct 17,2018 17:01:03 [info]  Enter Keyword And Assert Result
+Oct 17,2018 17:01:03 [info]  Click on Keyword option on Advaned Search
+Oct 17,2018 17:01:15 [info]  Get Keyword

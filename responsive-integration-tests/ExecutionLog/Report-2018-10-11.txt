@@ -1,0 +1,2308 @@
+Oct 11,2018 10:55:37 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 10:55:37 [info]  ATD-3: Log in with valid Credentials
+Oct 11,2018 10:56:03 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 10:56:03 [info]  Click Login link
+Oct 11,2018 10:56:09 [info]  Get user name
+Oct 11,2018 10:56:09 [info]  Get password
+Oct 11,2018 10:56:09 [info]  Enter Email ID
+Oct 11,2018 10:56:09 [info]  Enter Password
+Oct 11,2018 10:56:10 [info]  Click on Sign in button
+Oct 11,2018 10:56:18 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 10:56:19 [info]  Click on More Hamburger Button
+Oct 11,2018 10:56:19 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 10:56:19 [info]  Click on Sign out of My Trader link
+Oct 11,2018 10:56:23 [info]  Assert successfully signout
+Oct 11,2018 10:56:32 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 10:56:32 [info]  ATD-5: Validation message is displayed when trying to login with invalid
+Oct 11,2018 10:57:06 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 10:57:06 [info]  Click Login link
+Oct 11,2018 10:57:11 [info]  Enter Email ID
+Oct 11,2018 10:57:11 [info]  Enter Password
+Oct 11,2018 10:57:12 [info]  Click on Sign in button
+Oct 11,2018 10:57:16 [info]  User should fail to Login
+Oct 11,2018 10:57:27 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 10:57:56 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 10:57:56 [info]  Click on More Hamburger Button
+Oct 11,2018 10:57:56 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 10:57:56 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 10:58:03 [info]  Click On Join My Trader Button
+Oct 11,2018 10:58:24 [info]  Get Password
+Oct 11,2018 10:58:24 [info]  Get Re-password
+Oct 11,2018 10:58:24 [info]  Enter Email ID
+Oct 11,2018 10:58:25 [info]  Enter Password
+Oct 11,2018 10:58:25 [info]  Enter Re-Password
+Oct 11,2018 10:58:26 [info]  Click On Join My Tader Button at Join Trader page
+Oct 11,2018 10:59:02 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 10:59:02 [info]  Click on More Hamburger Button
+Oct 11,2018 10:59:07 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 10:59:07 [info]  Click on Sign out of My Trader link
+Oct 11,2018 10:59:15 [info]  Oct 11,2018 10:59:15 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.trader.pagehelper.TraderMenus.clickOnSignOutMyTraderLink(TraderMenus.java:59)
+	at com.trader.pagehelper.TraderMenus.signOutMyTrader(TraderMenus.java:68)
+	at com.trader.scripts.SmokeTest.createAccount(SmokeTest.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Oct 11,2018 10:59:24 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 10:59:45 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 10:59:45 [info]  Click on More Hamburger Button
+Oct 11,2018 10:59:45 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 10:59:45 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 10:59:53 [info]  Click On Join My Trader Button
+Oct 11,2018 10:59:56 [info]  Get ExistingEmailID
+Oct 11,2018 10:59:56 [info]  Get Password
+Oct 11,2018 10:59:56 [info]  Get Re-password
+Oct 11,2018 10:59:56 [info]  Enter Existing Email ID
+Oct 11,2018 10:59:56 [info]  Enter Password
+Oct 11,2018 10:59:57 [info]  Enter Re-Password
+Oct 11,2018 10:59:57 [info]  Click On Join My Tader Button at Join Trader page
+Oct 11,2018 11:00:00 [info]  User should fail to Sign Up with Existing email
+Oct 11,2018 11:00:09 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:00:29 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:00:29 [info]  Click on More Hamburger Button
+Oct 11,2018 11:00:29 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 11:00:29 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 11:00:37 [info]  Click On Join My Trader Button
+Oct 11,2018 11:00:40 [info]  Get Password
+Oct 11,2018 11:00:40 [info]  Get Re-password
+Oct 11,2018 11:00:40 [info]  Enter Existing Email ID
+Oct 11,2018 11:00:41 [info]  Enter Password
+Oct 11,2018 11:00:41 [info]  Enter Re-Password
+Oct 11,2018 11:00:41 [info]  Click On Join My Tader Button at Join Trader page
+Oct 11,2018 11:00:41 [info]  User should fail to Sign Up with invalid email
+Oct 11,2018 11:00:53 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:01:31 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:01:31 [info]  Search tab enabled
+Oct 11,2018 11:01:40 [info]  Click on find button
+Oct 11,2018 11:02:21 [info]  Motorcycles for Sale Page
+Oct 11,2018 11:02:28 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:02:45 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:02:45 [info]  Search tab enabled
+Oct 11,2018 11:02:50 [info]  Click on Advanced Search link
+Oct 11,2018 11:02:55 [info]  Motorcycles for Sale Page
+Oct 11,2018 11:03:06 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:03:25 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:03:25 [info]  Search tab enabled
+Oct 11,2018 11:03:30 [info]  Get Keyword
+Oct 11,2018 11:03:30 [info]  Get Zip Code
+Oct 11,2018 11:03:30 [info]  Get Radius
+Oct 11,2018 11:03:30 [info]  Enter KeyWord
+Oct 11,2018 11:03:31 [info]  Select Options from suggestion
+Oct 11,2018 11:03:34 [info]  Enter Zip Code
+Oct 11,2018 11:03:34 [info]  Select Radius
+Oct 11,2018 11:03:35 [info]  Click on find button
+Oct 11,2018 11:03:41 [info]  Ad's Search Result page.
+Oct 11,2018 11:03:51 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:04:09 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:04:09 [info]  Search tab enabled
+Oct 11,2018 11:04:14 [info]  Click on Advanced Search link
+Oct 11,2018 11:04:23 [info]  Motorcycles for Sale Page
+Oct 11,2018 11:04:23 [info]  Click on Location Option on Advanced Search
+Oct 11,2018 11:04:26 [info]  Get Zip Code
+Oct 11,2018 11:04:26 [info]  Get Location Radius
+Oct 11,2018 11:04:26 [info]  Select Radius from Location option
+Oct 11,2018 11:04:27 [info]  Enter Zip code
+Oct 11,2018 11:04:28 [info]  Click on update button
+Oct 11,2018 11:04:33 [info]  Click on See Matches Button
+Oct 11,2018 11:09:37 [info]  Oct 11,2018 11:09:37 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: '360NDCLP093', ip: '10.148.0.224', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\viveks\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51989}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 946f01e8c80d42a9714278785618fefb
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.trader.utils.DriverHelper.clickOn(DriverHelper.java:668)
+	at com.trader.pagehelper.SearchHelper.clickOnSeeMatchesButton(SearchHelper.java:263)
+	at com.trader.pagehelper.SearchHelper.searchWithLocationOption(SearchHelper.java:193)
+	at com.trader.scripts.SmokeTest.searchWithLocation(SmokeTest.java:135)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Oct 11,2018 11:09:46 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:10:18 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:10:18 [info]  Search tab enabled
+Oct 11,2018 11:10:23 [info]  Click on Advanced Search link
+Oct 11,2018 11:10:27 [info]  Motorcycles for Sale Page
+Oct 11,2018 11:10:27 [info]  Click on Keyword option on Advaned Search
+Oct 11,2018 11:10:32 [info]  Enter Keyword option on Advaned Search
+Oct 11,2018 11:10:32 [info]  Get Keyword
+Oct 11,2018 11:10:33 [info]  Click on update button under Keyword Option
+Oct 11,2018 11:10:35 [info]  Oct 11,2018 11:10:35 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.WebDriverException: unknown error: Element <div data-track="Update Keyword" class="btn btn-primary updateKeyword bounce animated">...</div> is not clickable at point (467, 427). Other element would receive the click: <li data-params="keyword=honda" onclick="TOL.Module.Keywordsearch.clickURL(this);">...</li>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: '360NDCLP093', ip: '10.148.0.224', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\viveks\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52411}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: d0963a03e2618c24793c5636d9770ceb
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.trader.utils.DriverHelper.clickOn(DriverHelper.java:668)
+	at com.trader.pagehelper.SearchHelper.clickOnAdvancedKeywordUpdateButton(SearchHelper.java:318)
+	at com.trader.scripts.SmokeTest.advancedSearchWithKeyword(SmokeTest.java:151)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Oct 11,2018 11:10:46 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:11:16 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:11:16 [info]  Search tab enabled
+Oct 11,2018 11:11:21 [info]  Click on Advanced Search link
+Oct 11,2018 11:11:26 [info]  Motorcycles for Sale Page
+Oct 11,2018 11:11:26 [info]  Click on Type Option at Advanced Search page
+Oct 11,2018 11:11:32 [info]  Select Types Option From Pop up
+Oct 11,2018 11:11:36 [info]  Click on Make Option at Advanced Search page
+Oct 11,2018 11:11:41 [info]  Select Make Option at Advanced Search page
+Oct 11,2018 11:11:44 [info]  Click on Update button
+Oct 11,2018 11:11:44 [info]  Click on Category Option at Advanced Search page
+Oct 11,2018 11:11:49 [info]  Select Category Option from Category pop up at Advanced Search page
+Oct 11,2018 11:11:49 [info]  Click on Update button
+Oct 11,2018 11:11:50 [info]  Click on See Matches Button
+Oct 11,2018 11:12:35 [info]  Ad's Search Result page.
+Oct 11,2018 11:12:44 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:13:22 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:13:22 [info]  Click on Popular Makes tab
+Oct 11,2018 11:13:22 [info]  Click on all makes icon and assert result page
+Oct 11,2018 11:14:01 [info]  Click on application logo in header
+Oct 11,2018 11:14:17 [info]  Click on application logo in header
+Oct 11,2018 11:14:39 [info]  Click on application logo in header
+Oct 11,2018 11:14:59 [info]  Click on application logo in header
+Oct 11,2018 11:15:12 [info]  Click on application logo in header
+Oct 11,2018 11:15:26 [info]  Click on application logo in header
+Oct 11,2018 11:20:31 [info]  Oct 11,2018 11:20:31 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: '360NDCLP093', ip: '10.148.0.224', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\viveks\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53100}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 1d8b60d60bad9ff103208774ecddcc89
+*** Element info: {Using=xpath, value=//ul[@id='makeIcons']/li[7]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:477)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:359)
+	at com.trader.utils.DriverHelper.isElementPresent(DriverHelper.java:234)
+	at com.trader.utils.DriverHelper.WaitForElementPresent(DriverHelper.java:240)
+	at com.trader.utils.DriverHelper.getText(DriverHelper.java:850)
+	at com.trader.utils.DriverHelper.getText(DriverHelper.java:845)
+	at com.trader.pagehelper.HomeHelper.searchWithPopularMakesAndAssertResultPage(HomeHelper.java:1042)
+	at com.trader.scripts.SmokeTest.searchWithPopularMakes(SmokeTest.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Oct 11,2018 11:20:42 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:21:10 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:21:10 [info]  Click on Popular Makes tab
+Oct 11,2018 11:21:10 [info]  Click on Search All
+Oct 11,2018 11:21:15 [info]  Assert BMW search result page.
+Oct 11,2018 11:21:15 [info]  Click on Browse All Icon at Sale By Makes
+Oct 11,2018 11:21:15 [info]  Assert Sales By Makes links
+Oct 11,2018 11:21:23 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:21:41 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:21:41 [info]  Click on Popular Makes tab
+Oct 11,2018 11:21:41 [info]  Click on Search All
+Oct 11,2018 11:21:47 [info]  Assert BMW search result page.
+Oct 11,2018 11:21:47 [info]  Click on Browse All Icon at Sale By Makes
+Oct 11,2018 11:21:47 [info]  Assert Sales By Makes links
+Oct 11,2018 11:21:47 [info]  Click On BMW Link
+Oct 11,2018 11:22:00 [info]  Assert BMW search result page.
+Oct 11,2018 11:22:01 [info]  Click On All Makes Breadcrumb Link
+Oct 11,2018 11:27:01 [info]  Oct 11,2018 11:27:01 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: '360NDCLP093', ip: '10.148.0.224', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\viveks\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54076}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: ac454e8b73352c28e2f2ff01ff61b284
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.trader.utils.DriverHelper.clickOn(DriverHelper.java:668)
+	at com.trader.pagehelper.SearchHelper.clickOnAllMakesBreadcrumbLink(SearchHelper.java:644)
+	at com.trader.scripts.SmokeTest.searchWithMakesLink(SmokeTest.java:230)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Oct 11,2018 11:27:10 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:27:50 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:27:50 [info]  Click on Popular Makes tab
+Oct 11,2018 11:27:50 [info]  Click on Search All
+Oct 11,2018 11:27:56 [info]  Assert BMW search result page.
+Oct 11,2018 11:27:56 [info]  Click On BMW Icon
+Oct 11,2018 11:28:02 [info]  Assert BMW search result page.
+Oct 11,2018 11:28:02 [info]  Click On All Makes Breadcrumb Link
+Oct 11,2018 11:28:46 [info]  Click On Triumph Icon
+Oct 11,2018 11:28:56 [info]  Assert Triumph search result page.
+Oct 11,2018 11:28:57 [info]  Click On All Makes Breadcrumb Link
+Oct 11,2018 11:29:10 [info]  Click On Yamaha Icon
+Oct 11,2018 11:29:21 [info]  Assert Yamaha search result page.
+Oct 11,2018 11:29:29 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:29:46 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:29:46 [info]  Top Motorcycle Makes Section
+Oct 11,2018 11:29:55 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:30:42 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:30:42 [info]  Top Motorcycle Makes Section
+Oct 11,2018 11:30:42 [info]  Click on Harley-Davidson Top Make link
+Oct 11,2018 11:30:48 [info]  Assert Harley search result page.
+Oct 11,2018 11:30:49 [info]  Click on application logo in header
+Oct 11,2018 11:30:59 [info]  Click on Honda Top Make link
+Oct 11,2018 11:31:04 [info]  Assert Honda search result page.
+Oct 11,2018 11:31:04 [info]  Click on application logo in header
+Oct 11,2018 11:31:37 [info]  Click on Yamaha Top Make link
+Oct 11,2018 11:31:45 [info]  Assert Yamaha search result page.
+Oct 11,2018 11:31:45 [info]  Click on application logo in header
+Oct 11,2018 11:31:49 [info]  Click on Kawasaki Top Make link
+Oct 11,2018 11:32:05 [info]  Assert Kawasaki search result page.
+Oct 11,2018 11:32:06 [info]  Click on application logo in header
+Oct 11,2018 11:32:10 [info]  Click on Can Am Top Make link
+Oct 11,2018 11:32:15 [info]  Assert CAN-Am search result page.
+Oct 11,2018 11:32:16 [info]  Click on application logo in header
+Oct 11,2018 11:32:18 [info]  Click on Suzuki Top Make link
+Oct 11,2018 11:32:29 [info]  Assert Suzuki search result page.
+Oct 11,2018 11:32:30 [info]  Click on application logo in header
+Oct 11,2018 11:32:32 [info]  Click on BMW Top Make link
+Oct 11,2018 11:32:36 [info]  Assert BMW search result page.
+Oct 11,2018 11:32:36 [info]  Click on application logo in header
+Oct 11,2018 11:32:40 [info]  Click on Triumph Top Make link
+Oct 11,2018 11:32:44 [info]  Assert Triumph search result page.
+Oct 11,2018 11:32:48 [info]  Click on application logo in header
+Oct 11,2018 11:32:51 [info]  Click on KTM Top Make link
+Oct 11,2018 11:32:55 [info]  Assert KTM search result page.
+Oct 11,2018 11:32:55 [info]  Click on application logo in header
+Oct 11,2018 11:32:58 [info]  Click on Victory Top Make link
+Oct 11,2018 11:33:04 [info]  Assert Victory search result page.
+Oct 11,2018 11:33:08 [info]  Click on application logo in header
+Oct 11,2018 11:33:20 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:33:53 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:33:53 [info]  Assert Top Model Section
+Oct 11,2018 11:34:02 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:34:31 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:34:31 [info]  Assert Top Model Section
+Oct 11,2018 11:34:31 [info]  Click on Kawasaki Ninja
+Oct 11,2018 11:34:44 [info]  Click on application logo in header
+Oct 11,2018 11:34:46 [info]  Click on Harley-davidson ELECTRA GLIDE
+Oct 11,2018 11:34:58 [info]  Click on application logo in header
+Oct 11,2018 11:35:00 [info]  Click on Honda CRF
+Oct 11,2018 11:35:09 [info]  Click on application logo in header
+Oct 11,2018 11:35:17 [info]  Click on Honda CBR
+Oct 11,2018 11:35:24 [info]  Click on application logo in header
+Oct 11,2018 11:35:26 [info]  Click on Harley-davidson STREET GLIDE
+Oct 11,2018 11:35:37 [info]  Click on application logo in header
+Oct 11,2018 11:35:40 [info]  Click on Kawasaki VULCAN
+Oct 11,2018 11:35:46 [info]  Click on application logo in header
+Oct 11,2018 11:35:49 [info]  Click on Can-am SPYDER
+Oct 11,2018 11:35:54 [info]  Click on application logo in header
+Oct 11,2018 11:35:57 [info]  Click on Yamaha YZF
+Oct 11,2018 11:36:06 [info]  Click on application logo in header
+Oct 11,2018 11:36:09 [info]  Click on Yamaha V STAR
+Oct 11,2018 11:36:17 [info]  Click on application logo in header
+Oct 11,2018 11:36:21 [info]  Click on Harley-davidson ROAD GLIDE
+Oct 11,2018 11:36:28 [info]  Click on application logo in header
+Oct 11,2018 11:36:41 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:37:16 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:37:16 [info]  Click on Popular Type Tab
+Oct 11,2018 11:37:16 [info]  Click on search all under Popular Type Tab
+Oct 11,2018 11:37:28 [info]  Motorcycles for Sale Page
+Oct 11,2018 11:37:35 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:38:04 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:38:04 [info]  Assert Top Model Section
+Oct 11,2018 11:38:04 [info]  Click on Popular Type Tab
+Oct 11,2018 11:38:05 [info]  set Popular TypeCruiser'
+Oct 11,2018 11:38:05 [info]  set Type List 'Cruiser'
+Oct 11,2018 11:38:16 [info]  Click on application logo in header
+Oct 11,2018 11:38:24 [info]  Click on Popular Type Tab
+Oct 11,2018 11:38:24 [info]  set Popular TypeDirt Bike'
+Oct 11,2018 11:38:24 [info]  set Type List 'Dirt Bike'
+Oct 11,2018 11:38:43 [info]  Click on application logo in header
+Oct 11,2018 11:38:46 [info]  Click on Popular Type Tab
+Oct 11,2018 11:38:46 [info]  set Popular TypeSportbike'
+Oct 11,2018 11:38:46 [info]  set Type List 'Sportbike'
+Oct 11,2018 11:39:04 [info]  Click on application logo in header
+Oct 11,2018 11:39:10 [info]  Click on Popular Type Tab
+Oct 11,2018 11:39:10 [info]  set Popular TypeStandard'
+Oct 11,2018 11:39:10 [info]  set Type List 'Standard'
+Oct 11,2018 11:39:45 [info]  Click on application logo in header
+Oct 11,2018 11:39:52 [info]  Click on Popular Type Tab
+Oct 11,2018 11:39:58 [info]  set Popular TypeTouring'
+Oct 11,2018 11:39:58 [info]  set Type List 'Touring'
+Oct 11,2018 11:40:15 [info]  Click on application logo in header
+Oct 11,2018 11:40:41 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:41:09 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:41:09 [info]  Assert Top Type Section
+Oct 11,2018 11:41:26 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:42:10 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:42:10 [info]  Assert Top Type Section
+Oct 11,2018 11:42:28 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:42:47 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:42:47 [info]  Click on Popular State tab
+Oct 11,2018 11:42:47 [info]  Click on Search All under Popular State tab
+Oct 11,2018 11:42:52 [info]  Assert State result page
+Oct 11,2018 11:43:03 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:43:19 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:43:19 [info]  Assert Popular State Section
+Oct 11,2018 11:43:19 [info]  Click on Popular State tab
+Oct 11,2018 11:43:19 [info]  set Popular StateAlabama'
+Oct 11,2018 11:43:19 [info]  set Type List 'Alabama'
+Oct 11,2018 11:43:33 [info]  Click on application logo in header
+Oct 11,2018 11:43:38 [info]  Click on Popular State tab
+Oct 11,2018 11:43:38 [info]  set Popular StateCalifornia'
+Oct 11,2018 11:43:38 [info]  set Type List 'California'
+Oct 11,2018 11:43:53 [info]  Click on application logo in header
+Oct 11,2018 11:48:53 [info]  Oct 11,2018 11:48:53 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: '360NDCLP093', ip: '10.148.0.224', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\viveks\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58886}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: cb067edbfe9f25ead0bbb503bb58e66f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.trader.utils.DriverHelper.clickOn(DriverHelper.java:668)
+	at com.trader.pagehelper.HomeHelper.clickOnApplicationLogo(HomeHelper.java:276)
+	at com.trader.pagehelper.HomeHelper.clickAndAssertPopularStateLinks(HomeHelper.java:897)
+	at com.trader.scripts.SmokeTest.searchWithStateUnderPopularState(SmokeTest.java:386)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Oct 11,2018 11:49:02 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:49:22 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:49:22 [info]  Click on find button
+Oct 11,2018 11:49:28 [info]  Click on Location Option on Advanced Search
+Oct 11,2018 11:49:34 [info]  Get Zip Code
+Oct 11,2018 11:49:34 [info]  Get Location Radius
+Oct 11,2018 11:49:34 [info]  Select Radius from Location option
+Oct 11,2018 11:49:35 [info]  Enter Zip code
+Oct 11,2018 11:49:36 [info]  Click on update button
+Oct 11,2018 11:49:41 [info]  Assert Location updates
+Oct 11,2018 11:49:51 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:50:08 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:50:08 [info]  Click on find button
+Oct 11,2018 11:50:14 [info]  Click on Keyword option on Advaned Search
+Oct 11,2018 11:50:19 [info]  Enter Keyword And Select Suggestion
+Oct 11,2018 11:50:19 [info]  Get Keyword
+Oct 11,2018 11:50:23 [info]  Click on update button under Keyword Option
+Oct 11,2018 11:50:25 [info]  Wait for Updating Spinner
+Oct 11,2018 11:50:28 [info]  Ad's Search Result page.
+Oct 11,2018 11:50:37 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:50:53 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:50:53 [info]  Click on find button
+Oct 11,2018 11:51:00 [info]  Click on Make Option at Advanced Search page
+Oct 11,2018 11:51:05 [info]  Select Make Option at Advanced Search page
+Oct 11,2018 11:51:08 [info]  Click on Update button
+Oct 11,2018 11:51:08 [info]  Wait for Updating Spinner
+Oct 11,2018 11:51:19 [info]  Select model Option at Advanced Search page
+Oct 11,2018 11:51:19 [info]  Click on Model Option at Advanced Search page
+Oct 11,2018 11:51:27 [info]  Click on Update button
+Oct 11,2018 11:51:28 [info]  Wait for Updating Spinner
+Oct 11,2018 11:51:29 [info]  Select Trim Option at Advanced Search page
+Oct 11,2018 11:51:29 [info]  Click on Trim Option at Advanced Search page
+Oct 11,2018 11:51:42 [info]  Select Category Option at Advanced Search page
+Oct 11,2018 11:51:42 [info]  Click on Category Option at Advanced Search page
+Oct 11,2018 11:51:50 [info]  Click on Update button
+Oct 11,2018 11:51:51 [info]  Wait for Updating Spinner
+Oct 11,2018 11:51:59 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:52:29 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:52:29 [info]  Click on find button
+Oct 11,2018 11:52:36 [info]  Click on Make Option at Advanced Search page
+Oct 11,2018 11:52:44 [info]  Recent search link
+Oct 11,2018 11:52:46 [info]  Click on Update button
+Oct 11,2018 11:52:47 [info]  Wait for Updating Spinner
+Oct 11,2018 11:52:54 [info]  Click on Recent Search section
+Oct 11,2018 11:52:54 [info]  Click on Recent Search link
+Oct 11,2018 11:53:10 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:53:25 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:53:25 [info]  Click on find button
+Oct 11,2018 11:53:36 [info]  Click on Make Option at Advanced Search page
+Oct 11,2018 11:53:42 [info]  Select Make Option at Advanced Search page
+Oct 11,2018 11:53:44 [info]  Click on Update button
+Oct 11,2018 11:53:45 [info]  Wait for Updating Spinner
+Oct 11,2018 11:53:47 [info]  Click on application logo in header
+Oct 11,2018 11:53:51 [info]  Search tab enabled
+Oct 11,2018 11:54:18 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:54:44 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:54:44 [info]  Search tab enabled
+Oct 11,2018 11:54:49 [info]  Click on Buy Menu and assert Result page
+Oct 11,2018 11:55:08 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 11:55:23 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 11:55:23 [info]  Search tab enabled
+Oct 11,2018 11:55:28 [info]  Click on Buy Menu and assert Result page
+Oct 11,2018 11:55:34 [info]  Click On Find By Make Button And Assert Result Page
+Oct 11,2018 12:00:43 [info]  Oct 11,2018 12:00:43 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: '360NDCLP093', ip: '10.148.0.224', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\viveks\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61524}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: f7a16e368a0f85f20970f6047d188c18
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.trader.utils.DriverHelper.clickOn(DriverHelper.java:668)
+	at com.trader.pagehelper.SearchHelper.clickOnFindByButtonsAndAssertResultPage(SearchHelper.java:937)
+	at com.trader.scripts.SmokeTest.buttonsRedirectionFromFindTrader(SmokeTest.java:480)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Oct 11,2018 12:00:56 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 12:01:13 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 12:01:13 [info]  Search tab enabled
+Oct 11,2018 12:01:19 [info]  Click on Buy Menu and assert Result page
+Oct 11,2018 12:01:25 [info]  Click on See Matches Button
+Oct 11,2018 12:01:37 [info]  Ad's Search Result page.
+Oct 11,2018 12:01:46 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 12:03:03 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 12:03:03 [info]  Click On Sell For Free Menu And Assert Result Page
+Oct 11,2018 12:03:03 [info]  Click on Sell Motorcycle button
+Oct 11,2018 12:03:22 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 12:03:37 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 12:03:37 [info]  Click On Research Menu
+Oct 11,2018 12:03:38 [info]  Assert Research page
+Oct 11,2018 12:03:41 [info]  Oct 11,2018 12:03:41 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.trader.pagehelper.TraderMenus.assertResearchPage(TraderMenus.java:86)
+	at com.trader.scripts.SmokeTest.clickAndAssertResearchMenuAndPage(SmokeTest.java:514)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Oct 11,2018 12:03:52 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 12:04:14 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 12:04:14 [info]  Click On Race Team Menu
+Oct 11,2018 12:04:15 [info]  Assert Race Team page
+Oct 11,2018 12:04:18 [info]  Oct 11,2018 12:04:18 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.trader.pagehelper.TraderMenus.assertRaceTeamPage(TraderMenus.java:114)
+	at com.trader.scripts.SmokeTest.clickAndAssertRaceTeamMenuAndPage(SmokeTest.java:525)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Oct 11,2018 12:04:27 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 12:04:47 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 12:04:47 [info]  Click On News Menu
+Oct 11,2018 12:04:48 [info]  Assert News page
+Oct 11,2018 12:04:51 [info]  Oct 11,2018 12:04:51 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.trader.pagehelper.TraderMenus.assertNewsPage(TraderMenus.java:132)
+	at com.trader.scripts.SmokeTest.clickAndAssertNewsMenuAndPage(SmokeTest.java:536)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Oct 11,2018 12:05:02 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 12:05:18 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 12:05:18 [info]  Click on More Hamburger Button
+Oct 11,2018 12:05:18 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 12:05:18 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 12:05:28 [info]  Click On Join My Trader Button
+Oct 11,2018 12:05:32 [info]  Get Password
+Oct 11,2018 12:05:32 [info]  Get Re-password
+Oct 11,2018 12:05:32 [info]  Enter Email ID
+Oct 11,2018 12:05:33 [info]  Enter Password
+Oct 11,2018 12:05:33 [info]  Enter Re-Password
+Oct 11,2018 12:05:33 [info]  Click On Join My Tader Button at Join Trader page
+Oct 11,2018 12:05:40 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 12:05:40 [info]  Click on application logo in header
+Oct 11,2018 12:05:47 [info]  Click On Sell For Free Menu And Assert Result Page
+Oct 11,2018 12:05:47 [info]  Click on Sell Motorcycle button
+Oct 11,2018 12:05:56 [info]  Click on Select Free button
+Oct 11,2018 12:06:04 [info]  Assert Enter Vehicle Info Tab
+Oct 11,2018 12:06:04 [info]  Select Motocycle Class in Class drop down
+Oct 11,2018 12:06:05 [info]  Select Listing Year from Year drop down
+Oct 11,2018 12:06:05 [info]  Select listing Make from Make drop down
+Oct 11,2018 12:06:06 [info]  Select listing Model from Model drop down
+Oct 11,2018 12:06:10 [info]  Select listing Trim from Trim drop down
+Oct 11,2018 12:06:15 [info]  Enter listing Price in Price field
+Oct 11,2018 12:06:19 [info]  Select listing Price Tagline from Price Tagline drop down
+Oct 11,2018 12:06:20 [info]  Select listing Category from Category drop down
+Oct 11,2018 12:06:20 [info]  Enter listing message in Message field
+Oct 11,2018 12:06:21 [info]  Click On Enter Your Contact Info Tab
+Oct 11,2018 12:06:21 [info]  Enter First Name and Last Name
+Oct 11,2018 12:06:22 [info]  Enter Contact Address
+Oct 11,2018 12:06:23 [info]  Enter Contact City
+Oct 11,2018 12:06:23 [info]  Select Contact State
+Oct 11,2018 12:06:23 [info]  Enter Contact Zip Code
+Oct 11,2018 12:06:24 [info]  Enter Contact Phone Number
+Oct 11,2018 12:06:24 [info]  Click on Checkout button
+Oct 11,2018 12:06:25 [info]  Wait for Updating Spinner
+Oct 11,2018 12:06:28 [info]  Assert Listing Confirmation Page
+Oct 11,2018 12:06:35 [info]  Oct 11,2018 12:06:35 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.trader.pagehelper.SellYourMotorcycleHelper.assertListingConfirmationPage(SellYourMotorcycleHelper.java:283)
+	at com.trader.scripts.SmokeTest.postAdWithSelectingFreePackage(SmokeTest.java:562)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Oct 11,2018 12:06:46 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 12:07:26 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 12:07:26 [info]  Click On Dealers Menu
+Oct 11,2018 12:07:27 [info]  Click On Search Dealer Button
+Oct 11,2018 12:07:36 [info]  Assert Find Motorcycle Dealers page.
+Oct 11,2018 12:07:43 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 12:08:00 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 12:08:00 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 11,2018 12:08:05 [info]  Assert Find Motorcycle Dealers page.
+Oct 11,2018 12:08:12 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 12:08:31 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 12:08:31 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 11,2018 12:08:33 [info]  Assert Find By State Section
+Oct 11,2018 12:08:42 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 12:08:57 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 12:08:57 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 11,2018 12:09:03 [info]  Assert Find Motorcycle Dealers page.
+Oct 11,2018 12:09:03 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 11,2018 12:09:37 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 12:09:56 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 12:09:56 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 11,2018 12:10:01 [info]  Assert Find Motorcycle Dealers page.
+Oct 11,2018 12:10:01 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 11,2018 12:10:04 [info]  Click On Dealers Links And Assert SearchResult Page
+Oct 11,2018 12:11:00 [info]  Oct 11,2018 12:11:00 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://ul[@class='list-unstyled margin-top10']/li[1]//div/h1 Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at com.trader.utils.DriverHelper.clickOn(DriverHelper.java:665)
+	at com.trader.pagehelper.DealerHelper.clickOnDealersLinksAndAssertSearchResultPage(DealerHelper.java:86)
+	at com.trader.scripts.SmokeTest.dealersLinkredirectionFromDealersResultPage(SmokeTest.java:623)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Oct 11,2018 12:11:09 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 12:11:27 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 12:11:27 [info]  Click on More Hamburger Button
+Oct 11,2018 12:11:28 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 12:11:28 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 12:11:36 [info]  Click On Join My Trader Button
+Oct 11,2018 12:11:41 [info]  Get Password
+Oct 11,2018 12:11:41 [info]  Get Re-password
+Oct 11,2018 12:11:41 [info]  Enter Email ID
+Oct 11,2018 12:11:42 [info]  Enter Password
+Oct 11,2018 12:11:42 [info]  Enter Re-Password
+Oct 11,2018 12:11:43 [info]  Click On Join My Tader Button at Join Trader page
+Oct 11,2018 12:11:46 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 12:11:46 [info]  Click on application logo in header
+Oct 11,2018 12:12:19 [info]  Get Keyword
+Oct 11,2018 12:12:19 [info]  Get Zip Code
+Oct 11,2018 12:12:19 [info]  Get Radius
+Oct 11,2018 12:12:19 [info]  Enter KeyWord
+Oct 11,2018 12:12:19 [info]  Select Options from suggestion
+Oct 11,2018 12:12:22 [info]  Enter Zip Code
+Oct 11,2018 12:12:22 [info]  Select Radius
+Oct 11,2018 12:12:23 [info]  Click on find button
+Oct 11,2018 12:12:33 [info]  Ad's Search Result page.
+Oct 11,2018 12:12:33 [info]  Click On Save This Search And Assert Saved Search
+Oct 11,2018 12:12:42 [info]  Click On Saved Icon in header section
+Oct 11,2018 12:12:59 [info]  Click on More Hamburger Button
+Oct 11,2018 12:12:59 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 12:12:59 [info]  Click on Sign out of My Trader link
+Oct 11,2018 12:13:03 [info]  Assert successfully signout
+Oct 11,2018 12:13:12 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 12:13:29 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 12:13:29 [info]  Click on More Hamburger Button
+Oct 11,2018 12:13:30 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 12:13:30 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 12:13:39 [info]  Click On Join My Trader Button
+Oct 11,2018 12:13:44 [info]  Get Password
+Oct 11,2018 12:13:44 [info]  Get Re-password
+Oct 11,2018 12:13:44 [info]  Enter Email ID
+Oct 11,2018 12:13:44 [info]  Enter Password
+Oct 11,2018 12:13:45 [info]  Enter Re-Password
+Oct 11,2018 12:13:45 [info]  Click On Join My Tader Button at Join Trader page
+Oct 11,2018 12:13:49 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 12:13:49 [info]  Click on application logo in header
+Oct 11,2018 12:13:56 [info]  Get Keyword
+Oct 11,2018 12:13:56 [info]  Get Zip Code
+Oct 11,2018 12:13:56 [info]  Get Radius
+Oct 11,2018 12:13:56 [info]  Enter KeyWord
+Oct 11,2018 12:13:56 [info]  Select Options from suggestion
+Oct 11,2018 12:14:00 [info]  Enter Zip Code
+Oct 11,2018 12:14:00 [info]  Select Radius
+Oct 11,2018 12:14:00 [info]  Click on find button
+Oct 11,2018 12:14:06 [info]  Ad's Search Result page.
+Oct 11,2018 12:14:07 [info]  Click On Ad And Assert Ad Details Page
+Oct 11,2018 12:14:21 [info]  Assert Listing Name
+Oct 11,2018 12:14:24 [info]  Click On Saved Icon in header section
+Oct 11,2018 12:14:41 [info]  Click on More Hamburger Button
+Oct 11,2018 12:14:41 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 12:14:41 [info]  Click on Sign out of My Trader link
+Oct 11,2018 12:14:44 [info]  Assert successfully signout
+Oct 11,2018 12:14:51 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 12:15:07 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 12:15:07 [info]  Click on More Hamburger Button
+Oct 11,2018 12:15:08 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 12:15:08 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 12:15:16 [info]  Click On Join My Trader Button
+Oct 11,2018 12:15:19 [info]  Get Password
+Oct 11,2018 12:15:19 [info]  Get Re-password
+Oct 11,2018 12:15:19 [info]  Enter Email ID
+Oct 11,2018 12:15:20 [info]  Enter Password
+Oct 11,2018 12:15:20 [info]  Enter Re-Password
+Oct 11,2018 12:15:20 [info]  Click On Join My Tader Button at Join Trader page
+Oct 11,2018 12:15:27 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 12:15:27 [info]  Click on application logo in header
+Oct 11,2018 12:16:15 [info]  Search tab enabled
+Oct 11,2018 12:16:20 [info]  Get Keyword
+Oct 11,2018 12:16:20 [info]  Get Zip Code
+Oct 11,2018 12:16:20 [info]  Get Radius
+Oct 11,2018 12:16:20 [info]  Enter KeyWord
+Oct 11,2018 12:16:20 [info]  Select Options from suggestion
+Oct 11,2018 12:16:23 [info]  Enter Zip Code
+Oct 11,2018 12:16:23 [info]  Select Radius
+Oct 11,2018 12:16:24 [info]  Click on find button
+Oct 11,2018 12:16:31 [info]  Ad's Search Result page.
+Oct 11,2018 12:16:31 [info]  Click On Save listings link And Assert saved Listings
+Oct 11,2018 12:16:35 [info]  Click On Saved Icon in header section
+Oct 11,2018 12:16:51 [info]  Click on More Hamburger Button
+Oct 11,2018 12:16:51 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 12:16:51 [info]  Click on Sign out of My Trader link
+Oct 11,2018 12:16:55 [info]  Assert successfully signout
+Oct 11,2018 12:17:08 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 12:17:23 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 12:17:23 [info]  Click Login link
+Oct 11,2018 12:17:28 [info]  Get user name
+Oct 11,2018 12:17:28 [info]  Get password
+Oct 11,2018 12:17:28 [info]  Enter Email ID
+Oct 11,2018 12:17:28 [info]  Enter Password
+Oct 11,2018 12:17:29 [info]  Click on Sign in button
+Oct 11,2018 12:17:32 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 12:17:32 [info]  Click on application logo in header
+Oct 11,2018 12:17:35 [info]  Search tab enabled
+Oct 11,2018 12:17:42 [info]  Get Keyword
+Oct 11,2018 12:17:42 [info]  Get Zip Code
+Oct 11,2018 12:17:42 [info]  Get Radius
+Oct 11,2018 12:17:42 [info]  Enter KeyWord
+Oct 11,2018 12:17:42 [info]  Select Options from suggestion
+Oct 11,2018 12:17:45 [info]  Enter Zip Code
+Oct 11,2018 12:17:46 [info]  Select Radius
+Oct 11,2018 12:17:46 [info]  Click on find button
+Oct 11,2018 12:17:52 [info]  Ad's Search Result page.
+Oct 11,2018 12:17:53 [info]  Click On Ad And Assert Ad Details Page
+Oct 11,2018 12:18:05 [info]  Assert Listing Name
+Oct 11,2018 12:18:05 [info]  Click on More Hamburger Button
+Oct 11,2018 12:18:10 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 12:18:11 [info]  Click on Sign out of My Trader link
+Oct 11,2018 12:18:15 [info]  Assert successfully signout
+Oct 11,2018 12:18:24 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 12:18:41 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 12:18:41 [info]  Click Login link
+Oct 11,2018 12:18:46 [info]  Get user name
+Oct 11,2018 12:18:46 [info]  Get password
+Oct 11,2018 12:18:46 [info]  Enter Email ID
+Oct 11,2018 12:18:47 [info]  Enter Password
+Oct 11,2018 12:18:47 [info]  Click on Sign in button
+Oct 11,2018 12:18:51 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 12:18:51 [info]  Click on application logo in header
+Oct 11,2018 12:18:59 [info]  Search tab enabled
+Oct 11,2018 12:19:04 [info]  Get Keyword
+Oct 11,2018 12:19:04 [info]  Get Zip Code
+Oct 11,2018 12:19:04 [info]  Get Radius
+Oct 11,2018 12:19:04 [info]  Enter KeyWord
+Oct 11,2018 12:19:04 [info]  Select Options from suggestion
+Oct 11,2018 12:19:08 [info]  Enter Zip Code
+Oct 11,2018 12:19:08 [info]  Select Radius
+Oct 11,2018 12:19:08 [info]  Click on find button
+Oct 11,2018 12:19:21 [info]  Ad's Search Result page.
+Oct 11,2018 12:19:22 [info]  Click On Ad And Assert Ad Details Page
+Oct 11,2018 12:19:36 [info]  Assert Listing Name
+Oct 11,2018 12:19:36 [info]  Click On Email Only And Assert Contact seller Section
+Oct 11,2018 12:19:37 [info]  Click on More Hamburger Button
+Oct 11,2018 12:19:37 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 12:19:38 [info]  Click on Sign out of My Trader link
+Oct 11,2018 12:19:42 [info]  Assert successfully signout
+Oct 11,2018 12:19:55 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 12:20:25 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 12:20:25 [info]  Click on More Hamburger Button
+Oct 11,2018 12:20:25 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 12:20:25 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 12:20:33 [info]  Click On Join My Trader Button
+Oct 11,2018 12:20:38 [info]  Get Password
+Oct 11,2018 12:20:38 [info]  Get Re-password
+Oct 11,2018 12:20:38 [info]  Enter Email ID
+Oct 11,2018 12:20:38 [info]  Enter Password
+Oct 11,2018 12:20:38 [info]  Enter Re-Password
+Oct 11,2018 12:20:39 [info]  Click On Join My Tader Button at Join Trader page
+Oct 11,2018 12:20:44 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 12:20:44 [info]  Click on application logo in header
+Oct 11,2018 12:20:51 [info]  Click On Sell For Free Menu And Assert Result Page
+Oct 11,2018 12:20:52 [info]  Click on Sell Motorcycle button
+Oct 11,2018 12:20:59 [info]  Click on Select Enhanced button
+Oct 11,2018 12:21:03 [info]  Assert Enter Vehicle Info Tab
+Oct 11,2018 12:21:03 [info]  Select Motocycle Class in Class drop down
+Oct 11,2018 12:21:03 [info]  Oct 11,2018 12:21:03 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.WebDriverException: unknown error: Element <select id="class" data-error-text="Please choose a valid class.">...</select> is not clickable at point (452, 160). Other element would receive the click: <div class="center">...</div>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: '360NDCLP093', ip: '10.148.0.224', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\viveks\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51478}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 3675f2095ce690a509948b89e915d460
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.trader.utils.DriverHelper.clickOn(DriverHelper.java:668)
+	at com.trader.pagehelper.SellYourMotorcycleHelper.selectMotorCycleClass(SellYourMotorcycleHelper.java:82)
+	at com.trader.pagehelper.SellYourMotorcycleHelper.fillListingDetailsForEnhancedPackage(SellYourMotorcycleHelper.java:317)
+	at com.trader.scripts.SmokeTest.postAnListingADWithEnhancedPackageSelected(SmokeTest.java:778)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Oct 11,2018 12:21:12 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 12:21:33 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 12:21:33 [info]  Click on More Hamburger Button
+Oct 11,2018 12:21:33 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 12:21:33 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 12:21:41 [info]  Click On Join My Trader Button
+Oct 11,2018 12:21:47 [info]  Get Password
+Oct 11,2018 12:21:47 [info]  Get Re-password
+Oct 11,2018 12:21:47 [info]  Enter Email ID
+Oct 11,2018 12:21:47 [info]  Enter Password
+Oct 11,2018 12:21:48 [info]  Enter Re-Password
+Oct 11,2018 12:21:48 [info]  Click On Join My Tader Button at Join Trader page
+Oct 11,2018 12:21:51 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 12:21:52 [info]  Click on application logo in header
+Oct 11,2018 12:21:54 [info]  Click On Sell For Free Menu And Assert Result Page
+Oct 11,2018 12:21:55 [info]  Click on Sell Motorcycle button
+Oct 11,2018 12:22:04 [info]  Click on Select Best button
+Oct 11,2018 12:22:17 [info]  Assert Enter Vehicle Info Tab
+Oct 11,2018 12:22:17 [info]  Select Motocycle Class in Class drop down
+Oct 11,2018 12:22:18 [info]  Select Listing Year from Year drop down
+Oct 11,2018 12:22:18 [info]  Select listing Make from Make drop down
+Oct 11,2018 12:22:19 [info]  Select listing Model from Model drop down
+Oct 11,2018 12:22:24 [info]  Select listing Trim from Trim drop down
+Oct 11,2018 12:22:28 [info]  Enter listing Price in Price field
+Oct 11,2018 12:22:33 [info]  Select listing Price Tagline from Price Tagline drop down
+Oct 11,2018 12:22:33 [info]  Select listing Category from Category drop down
+Oct 11,2018 12:22:34 [info]  Enter listing message in Message field
+Oct 11,2018 12:22:34 [info]  Click On Enter Your Contact Info Tab
+Oct 11,2018 12:22:35 [info]  Enter First Name and Last Name
+Oct 11,2018 12:22:36 [info]  Enter Contact Address
+Oct 11,2018 12:22:36 [info]  Enter Contact City
+Oct 11,2018 12:22:37 [info]  Select Contact State
+Oct 11,2018 12:22:37 [info]  Enter Contact Zip Code
+Oct 11,2018 12:22:37 [info]  Enter Contact Phone Number
+Oct 11,2018 12:22:38 [info]  Enter Coupon code
+Oct 11,2018 12:22:38 [info]  Click on Apply coupon code button
+Oct 11,2018 12:22:39 [info]  Click on Checkout button
+Oct 11,2018 12:22:39 [info]  Wait for Updating Spinner
+Oct 11,2018 12:22:42 [info]  Assert Listing Confirmation Page
+Oct 11,2018 12:22:48 [info]  Click on More Hamburger Button
+Oct 11,2018 12:22:48 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 12:22:48 [info]  Click on Sign out of My Trader link
+Oct 11,2018 12:22:52 [info]  Assert successfully signout
+Oct 11,2018 12:23:02 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 12:23:20 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 12:23:20 [info]  Click on More Hamburger Button
+Oct 11,2018 12:23:20 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 12:23:20 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 12:23:28 [info]  Click On Join My Trader Button
+Oct 11,2018 12:23:33 [info]  Get Password
+Oct 11,2018 12:23:33 [info]  Get Re-password
+Oct 11,2018 12:23:33 [info]  Enter Email ID
+Oct 11,2018 12:23:34 [info]  Enter Password
+Oct 11,2018 12:23:34 [info]  Enter Re-Password
+Oct 11,2018 12:23:34 [info]  Click On Join My Tader Button at Join Trader page
+Oct 11,2018 12:23:40 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 12:23:40 [info]  Click on application logo in header
+Oct 11,2018 12:23:47 [info]  Search tab enabled
+Oct 11,2018 12:23:53 [info]  Get Keyword
+Oct 11,2018 12:23:53 [info]  Get Zip Code
+Oct 11,2018 12:23:53 [info]  Get Radius
+Oct 11,2018 12:23:53 [info]  Enter KeyWord
+Oct 11,2018 12:23:53 [info]  Select Options from suggestion
+Oct 11,2018 12:23:56 [info]  Enter Zip Code
+Oct 11,2018 12:23:56 [info]  Select Radius
+Oct 11,2018 12:23:57 [info]  Click on find button
+Oct 11,2018 12:24:04 [info]  Ad's Search Result page.
+Oct 11,2018 12:24:05 [info]  Click On Save listings link And Assert saved Listings
+Oct 11,2018 12:24:10 [info]  Click On Saved Icon in header section
+Oct 11,2018 12:24:27 [info]  Click on More Hamburger Button
+Oct 11,2018 12:24:27 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 12:24:27 [info]  Click on Sign out of My Trader link
+Oct 11,2018 12:24:32 [info]  Assert successfully signout
+Oct 11,2018 12:24:43 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 12:25:01 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 12:25:01 [info]  Click on More Hamburger Button
+Oct 11,2018 12:25:02 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 12:25:02 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 12:25:12 [info]  Click On Join My Trader Button
+Oct 11,2018 12:25:15 [info]  Get Password
+Oct 11,2018 12:25:15 [info]  Get Re-password
+Oct 11,2018 12:25:15 [info]  Enter Email ID
+Oct 11,2018 12:25:16 [info]  Enter Password
+Oct 11,2018 12:25:16 [info]  Enter Re-Password
+Oct 11,2018 12:25:16 [info]  Click On Join My Tader Button at Join Trader page
+Oct 11,2018 12:25:23 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 12:25:23 [info]  Click on application logo in header
+Oct 11,2018 12:25:25 [info]  Get Keyword
+Oct 11,2018 12:25:25 [info]  Get Zip Code
+Oct 11,2018 12:25:25 [info]  Get Radius
+Oct 11,2018 12:25:25 [info]  Enter KeyWord
+Oct 11,2018 12:25:26 [info]  Select Options from suggestion
+Oct 11,2018 12:25:31 [info]  Enter Zip Code
+Oct 11,2018 12:25:31 [info]  Select Radius
+Oct 11,2018 12:25:32 [info]  Click on find button
+Oct 11,2018 12:25:42 [info]  Ad's Search Result page.
+Oct 11,2018 12:25:42 [info]  Click On Save This Search And Assert Saved Search
+Oct 11,2018 12:25:47 [info]  Click On Saved Icon in header section
+Oct 11,2018 12:26:04 [info]  Click on More Hamburger Button
+Oct 11,2018 12:26:04 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 12:26:05 [info]  Click on Sign out of My Trader link
+Oct 11,2018 12:26:38 [info]  Assert successfully signout
+Oct 11,2018 12:26:49 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 12:27:04 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 12:27:04 [info]  Click on More Hamburger Button
+Oct 11,2018 12:27:04 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 12:27:04 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 12:27:16 [info]  Click On Join My Trader Button
+Oct 11,2018 12:27:19 [info]  Get Password
+Oct 11,2018 12:27:19 [info]  Get Re-password
+Oct 11,2018 12:27:19 [info]  Enter Email ID
+Oct 11,2018 12:27:20 [info]  Enter Password
+Oct 11,2018 12:27:20 [info]  Enter Re-Password
+Oct 11,2018 12:27:20 [info]  Click On Join My Tader Button at Join Trader page
+Oct 11,2018 12:27:55 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 12:27:55 [info]  Click on application logo in header
+Oct 11,2018 12:28:02 [info]  Search tab enabled
+Oct 11,2018 12:28:07 [info]  Get Keyword
+Oct 11,2018 12:28:07 [info]  Get Zip Code
+Oct 11,2018 12:28:07 [info]  Get Radius
+Oct 11,2018 12:28:07 [info]  Enter KeyWord
+Oct 11,2018 12:28:08 [info]  Select Options from suggestion
+Oct 11,2018 12:28:11 [info]  Enter Zip Code
+Oct 11,2018 12:28:11 [info]  Select Radius
+Oct 11,2018 12:28:11 [info]  Click on find button
+Oct 11,2018 12:28:18 [info]  Ad's Search Result page.
+Oct 11,2018 12:28:19 [info]  Click On Save listings link And Assert saved Listings
+Oct 11,2018 12:28:27 [info]  Click On Saved Icon in header section
+Oct 11,2018 12:28:45 [info]  Click on application logo in header
+Oct 11,2018 12:28:47 [info]  Search tab enabled
+Oct 11,2018 12:28:54 [info]  Get Keyword
+Oct 11,2018 12:28:54 [info]  Get Zip Code
+Oct 11,2018 12:28:54 [info]  Get Radius
+Oct 11,2018 12:28:54 [info]  Enter KeyWord
+Oct 11,2018 12:28:54 [info]  Select Options from suggestion
+Oct 11,2018 12:28:57 [info]  Enter Zip Code
+Oct 11,2018 12:28:58 [info]  Select Radius
+Oct 11,2018 12:28:58 [info]  Click on find button
+Oct 11,2018 12:29:03 [info]  Ad's Search Result page.
+Oct 11,2018 12:29:04 [info]  Click On Save This Search And Assert Saved Search
+Oct 11,2018 12:29:05 [info]  Oct 11,2018 12:29:05 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: '360NDCLP093', ip: '10.148.0.224', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\viveks\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53271}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: f60de4168235f6367048e68b8e3c91f3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.trader.utils.DriverHelper.clickOn(DriverHelper.java:668)
+	at com.trader.pagehelper.SearchHelper.clickOnSaveThisSearchAndAssertSavedSearch(SearchHelper.java:955)
+	at com.trader.pagehelper.SearchHelper.saveSearch(SearchHelper.java:1098)
+	at com.trader.scripts.SmokeTest.allSavedListingAndSearchesOnMyTraderPage(SmokeTest.java:874)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Oct 11,2018 12:29:14 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 12:29:33 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 12:29:33 [info]  Click on find button
+Oct 11,2018 12:29:43 [info]  Click on any Listing with Price
+Oct 11,2018 12:34:43 [info]  Oct 11,2018 12:34:43 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: '360NDCLP093', ip: '10.148.0.224', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\viveks\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53819}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 3133df4cbd9f81ecaa02fc30174b9db6
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.trader.pagehelper.SearchHelper.clickOnListingWithPriceAndEstimatePaymentIcon(SearchHelper.java:1107)
+	at com.trader.scripts.SmokeTest.calculateEstimatePayment(SmokeTest.java:891)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Oct 11,2018 12:34:56 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 12:35:09 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 12:35:09 [info]  Click Login link
+Oct 11,2018 12:35:14 [info]  Get user name
+Oct 11,2018 12:35:14 [info]  Get password
+Oct 11,2018 12:35:14 [info]  Enter Email ID
+Oct 11,2018 12:35:15 [info]  Enter Password
+Oct 11,2018 12:35:15 [info]  Click on Sign in button
+Oct 11,2018 12:35:21 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 12:35:21 [info]  Click on Sell A Motorcycle Link
+Oct 11,2018 12:36:16 [info]  Oct 11,2018 12:36:16 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://*[@class='myt-nav-container']//li/a[contains(text(),'Sell A')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at com.trader.utils.DriverHelper.clickOn(DriverHelper.java:665)
+	at com.trader.pagehelper.MyTraderHelper.clickOnSellAMotorcycleLink(MyTraderHelper.java:80)
+	at com.trader.scripts.SmokeTest.sellAMotorcycleLinkWorking(SmokeTest.java:909)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Oct 11,2018 12:36:25 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 12:36:40 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 12:36:40 [info]  Click Login link
+Oct 11,2018 12:37:01 [info]  Get user name
+Oct 11,2018 12:37:01 [info]  Get password
+Oct 11,2018 12:37:01 [info]  Enter Email ID
+Oct 11,2018 12:37:02 [info]  Enter Password
+Oct 11,2018 12:37:02 [info]  Click on Sign in button
+Oct 11,2018 12:37:06 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 12:37:06 [info]  Click on Account Setting Link
+Oct 11,2018 12:37:43 [info]  Update First name and last name
+Oct 11,2018 12:37:44 [info]  Click on Save Changes Button
+Oct 11,2018 12:37:57 [info]  Assert Updates Changes Confirmation Message
+Oct 11,2018 12:37:57 [info]  Click on More Hamburger Button
+Oct 11,2018 12:37:58 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 12:37:58 [info]  Click on Sign out of My Trader link
+Oct 11,2018 12:38:01 [info]  Assert successfully signout
+Oct 11,2018 12:38:10 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 12:38:30 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 12:38:30 [info]  Click On Research Menu
+Oct 11,2018 12:38:31 [info]  Assert Research page
+Oct 11,2018 12:38:34 [info]  Oct 11,2018 12:38:34 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.trader.pagehelper.TraderMenus.assertResearchPage(TraderMenus.java:86)
+	at com.trader.scripts.SmokeTest.assertLearnMoreButtonPages(SmokeTest.java:946)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Oct 11,2018 13:03:10 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 13:03:31 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 13:03:31 [info]  Click Login link
+Oct 11,2018 13:03:37 [info]  Get user name
+Oct 11,2018 13:03:37 [info]  Get password
+Oct 11,2018 13:03:37 [info]  Enter Email ID
+Oct 11,2018 13:03:38 [info]  Enter Password
+Oct 11,2018 13:03:38 [info]  Click on Sign in button
+Oct 11,2018 13:03:41 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 13:03:41 [info]  Click on Sell A Motorcycle Link
+Oct 11,2018 13:04:36 [info]  Oct 11,2018 13:04:36 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://*[@class='myt-nav-container']//li/a[contains(text(),'Sell A')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at com.trader.utils.DriverHelper.clickOn(DriverHelper.java:665)
+	at com.trader.pagehelper.MyTraderHelper.clickOnSellAMotorcycleLink(MyTraderHelper.java:80)
+	at com.trader.scripts.SmokeTest.sellAMotorcycleLinkWorking(SmokeTest.java:909)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Oct 11,2018 13:11:37 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 13:11:56 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 13:11:56 [info]  Click Login link
+Oct 11,2018 13:12:01 [info]  Get user name
+Oct 11,2018 13:12:01 [info]  Get password
+Oct 11,2018 13:12:01 [info]  Enter Email ID
+Oct 11,2018 13:12:02 [info]  Enter Password
+Oct 11,2018 13:12:02 [info]  Click on Sign in button
+Oct 11,2018 13:12:09 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 13:12:09 [info]  Click on Sell A Motorcycle Link
+Oct 11,2018 13:12:16 [info]  Assert Sell A Motorcycle Page
+Oct 11,2018 13:12:16 [info]  Click on More Hamburger Button
+Oct 11,2018 13:12:16 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 13:12:16 [info]  Click on Sign out of My Trader link
+Oct 11,2018 13:12:20 [info]  Assert successfully signout
+Oct 11,2018 13:14:57 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 13:15:42 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 13:15:42 [info]  Search tab enabled
+Oct 11,2018 13:15:47 [info]  Click on Advanced Search link
+Oct 11,2018 13:15:53 [info]  Motorcycles for Sale Page
+Oct 11,2018 13:15:56 [info]  Click on Keyword option on Advaned Search
+Oct 11,2018 13:16:01 [info]  Enter Keyword option on Advaned Search
+Oct 11,2018 13:16:01 [info]  Get Keyword
+Oct 11,2018 13:16:02 [info]  Click on update button under Keyword Option
+Oct 11,2018 13:16:04 [info]  Oct 11,2018 13:16:04 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.WebDriverException: unknown error: Element <div data-track="Update Keyword" class="btn btn-primary updateKeyword bounce animated">...</div> is not clickable at point (467, 427). Other element would receive the click: <li data-params="keyword=honda" onclick="TOL.Module.Keywordsearch.clickURL(this);">...</li>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: '360NDCLP093', ip: '10.148.0.224', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\viveks\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57249}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 0296f63cd16d259e5175c0f06eea667a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.trader.utils.DriverHelper.clickOn(DriverHelper.java:668)
+	at com.trader.pagehelper.SearchHelper.clickOnAdvancedKeywordUpdateButton(SearchHelper.java:318)
+	at com.trader.scripts.SmokeTest.advancedSearchWithKeyword(SmokeTest.java:151)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Oct 11,2018 13:19:48 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 13:20:07 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 13:20:07 [info]  Search tab enabled
+Oct 11,2018 13:20:12 [info]  Click on Advanced Search link
+Oct 11,2018 13:20:16 [info]  Motorcycles for Sale Page
+Oct 11,2018 13:20:17 [info]  Click on Keyword option on Advaned Search
+Oct 11,2018 13:20:37 [info]  Enter Keyword option on Advaned Search
+Oct 11,2018 13:20:37 [info]  Get Keyword
+Oct 11,2018 13:20:37 [info]  Click on update button under Keyword Option
+Oct 11,2018 13:20:40 [info]  Oct 11,2018 13:20:40 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.WebDriverException: unknown error: Element <div data-track="Update Keyword" class="btn btn-primary updateKeyword bounce animated">...</div> is not clickable at point (467, 427). Other element would receive the click: <li data-params="keyword=honda" onclick="TOL.Module.Keywordsearch.clickURL(this);">...</li>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: '360NDCLP093', ip: '10.148.0.224', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\viveks\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58114}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 816f580593354c990a3447c363b9114a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.trader.utils.DriverHelper.clickOn(DriverHelper.java:668)
+	at com.trader.pagehelper.SearchHelper.clickOnAdvancedKeywordUpdateButton(SearchHelper.java:318)
+	at com.trader.scripts.SmokeTest.advancedSearchWithKeyword(SmokeTest.java:151)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Oct 11,2018 13:25:13 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 13:25:29 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 13:25:29 [info]  Search tab enabled
+Oct 11,2018 13:25:34 [info]  Click on Advanced Search link
+Oct 11,2018 13:25:39 [info]  Motorcycles for Sale Page
+Oct 11,2018 13:25:39 [info]  Click on Keyword option on Advaned Search
+Oct 11,2018 13:25:45 [info]  Enter Keyword option on Advaned Search
+Oct 11,2018 13:25:45 [info]  Get Keyword
+Oct 11,2018 13:25:48 [info]  Click on update button under Keyword Option
+Oct 11,2018 13:25:50 [info]  Click on See Matches Button
+Oct 11,2018 13:25:58 [info]  Ad's Search Result page.
+Oct 11,2018 13:26:55 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 13:27:11 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 13:27:11 [info]  Click on More Hamburger Button
+Oct 11,2018 13:27:11 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 13:27:11 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 13:27:21 [info]  Click On Join My Trader Button
+Oct 11,2018 13:27:27 [info]  Get Password
+Oct 11,2018 13:27:27 [info]  Get Re-password
+Oct 11,2018 13:27:27 [info]  Enter Email ID
+Oct 11,2018 13:27:27 [info]  Enter Password
+Oct 11,2018 13:27:28 [info]  Enter Re-Password
+Oct 11,2018 13:27:28 [info]  Click On Join My Tader Button at Join Trader page
+Oct 11,2018 13:27:34 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 13:27:34 [info]  Click on application logo in header
+Oct 11,2018 13:27:37 [info]  Search tab enabled
+Oct 11,2018 13:27:44 [info]  Get Keyword
+Oct 11,2018 13:27:44 [info]  Get Zip Code
+Oct 11,2018 13:27:44 [info]  Get Radius
+Oct 11,2018 13:27:44 [info]  Enter KeyWord
+Oct 11,2018 13:27:44 [info]  Select Options from suggestion
+Oct 11,2018 13:27:47 [info]  Enter Zip Code
+Oct 11,2018 13:27:47 [info]  Select Radius
+Oct 11,2018 13:27:48 [info]  Click on find button
+Oct 11,2018 13:27:53 [info]  Ad's Search Result page.
+Oct 11,2018 13:27:53 [info]  Click On Save listings link And Assert saved Listings
+Oct 11,2018 13:27:59 [info]  Click On Saved Icon in header section
+Oct 11,2018 13:28:17 [info]  Click on application logo in header
+Oct 11,2018 13:28:19 [info]  Search tab enabled
+Oct 11,2018 13:28:26 [info]  Get Keyword
+Oct 11,2018 13:28:26 [info]  Get Zip Code
+Oct 11,2018 13:28:26 [info]  Get Radius
+Oct 11,2018 13:28:26 [info]  Enter KeyWord
+Oct 11,2018 13:28:26 [info]  Select Options from suggestion
+Oct 11,2018 13:28:30 [info]  Enter Zip Code
+Oct 11,2018 13:28:30 [info]  Select Radius
+Oct 11,2018 13:28:30 [info]  Click on find button
+Oct 11,2018 13:28:35 [info]  Ad's Search Result page.
+Oct 11,2018 13:28:35 [info]  Click On Save This Search And Assert Saved Search
+Oct 11,2018 13:28:35 [info]  Oct 11,2018 13:28:35 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: '360NDCLP093', ip: '10.148.0.224', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\viveks\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59461}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: e9e556bc2eea853608dc2652703f5b06
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.trader.utils.DriverHelper.clickOn(DriverHelper.java:668)
+	at com.trader.pagehelper.SearchHelper.clickOnSaveThisSearchAndAssertSavedSearch(SearchHelper.java:958)
+	at com.trader.pagehelper.SearchHelper.saveSearch(SearchHelper.java:1101)
+	at com.trader.scripts.SmokeTest.allSavedListingAndSearchesOnMyTraderPage(SmokeTest.java:874)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Oct 11,2018 13:42:04 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 13:42:50 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 13:42:50 [info]  Click on More Hamburger Button
+Oct 11,2018 13:42:51 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 13:42:51 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 13:42:59 [info]  Click On Join My Trader Button
+Oct 11,2018 13:43:04 [info]  Get Password
+Oct 11,2018 13:43:04 [info]  Get Re-password
+Oct 11,2018 13:43:04 [info]  Enter Email ID
+Oct 11,2018 13:43:05 [info]  Enter Password
+Oct 11,2018 13:43:05 [info]  Enter Re-Password
+Oct 11,2018 13:43:06 [info]  Click On Join My Tader Button at Join Trader page
+Oct 11,2018 13:43:10 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 13:43:10 [info]  Click on application logo in header
+Oct 11,2018 13:43:12 [info]  Search tab enabled
+Oct 11,2018 13:43:22 [info]  Get Keyword
+Oct 11,2018 13:43:22 [info]  Get Zip Code
+Oct 11,2018 13:43:22 [info]  Get Radius
+Oct 11,2018 13:43:22 [info]  Enter KeyWord
+Oct 11,2018 13:43:23 [info]  Select Options from suggestion
+Oct 11,2018 13:43:26 [info]  Enter Zip Code
+Oct 11,2018 13:43:26 [info]  Select Radius
+Oct 11,2018 13:43:27 [info]  Click on find button
+Oct 11,2018 13:43:33 [info]  Ad's Search Result page.
+Oct 11,2018 13:43:34 [info]  Click On Save listings link And Assert saved Listings
+Oct 11,2018 13:43:39 [info]  Click On Saved Icon in header section
+Oct 11,2018 13:43:58 [info]  Click on application logo in header
+Oct 11,2018 13:44:49 [info]  Search tab enabled
+Oct 11,2018 13:44:55 [info]  Get Keyword
+Oct 11,2018 13:44:55 [info]  Get Zip Code
+Oct 11,2018 13:44:55 [info]  Get Radius
+Oct 11,2018 13:44:55 [info]  Enter KeyWord
+Oct 11,2018 13:44:55 [info]  Select Options from suggestion
+Oct 11,2018 13:44:58 [info]  Enter Zip Code
+Oct 11,2018 13:44:58 [info]  Select Radius
+Oct 11,2018 13:44:59 [info]  Click on find button
+Oct 11,2018 13:45:07 [info]  Ad's Search Result page.
+Oct 11,2018 13:45:07 [info]  Click On Save This Search And Assert Saved Search
+Oct 11,2018 13:45:12 [info]  Click On Saved Icon in header section
+Oct 11,2018 13:45:30 [info]  Click on My Trader Home Icon
+Oct 11,2018 13:45:33 [info]  Assert Saved Listing Section
+Oct 11,2018 13:45:33 [info]  Assert Saved Searches Section
+Oct 11,2018 13:45:33 [info]  Click on Edit under Saved Listing Section
+Oct 11,2018 13:45:36 [info]  Click on My Trader Home Icon
+Oct 11,2018 13:45:38 [info]  Click on Edit under Saved Searches Section
+Oct 11,2018 13:45:42 [info]  Click on More Hamburger Button
+Oct 11,2018 13:45:42 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 13:45:42 [info]  Click on Sign out of My Trader link
+Oct 11,2018 13:45:47 [info]  Assert successfully signout
+Oct 11,2018 13:46:10 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 13:46:28 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 13:46:28 [info]  Click on More Hamburger Button
+Oct 11,2018 13:46:30 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 13:46:31 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 13:46:38 [info]  Click On Join My Trader Button
+Oct 11,2018 13:46:42 [info]  Get Password
+Oct 11,2018 13:46:42 [info]  Get Re-password
+Oct 11,2018 13:46:42 [info]  Enter Email ID
+Oct 11,2018 13:46:43 [info]  Enter Password
+Oct 11,2018 13:46:43 [info]  Enter Re-Password
+Oct 11,2018 13:46:43 [info]  Click On Join My Tader Button at Join Trader page
+Oct 11,2018 13:46:48 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 13:46:48 [info]  Click on application logo in header
+Oct 11,2018 13:46:57 [info]  Search tab enabled
+Oct 11,2018 13:47:02 [info]  Get Keyword
+Oct 11,2018 13:47:02 [info]  Get Zip Code
+Oct 11,2018 13:47:02 [info]  Get Radius
+Oct 11,2018 13:47:02 [info]  Enter KeyWord
+Oct 11,2018 13:47:03 [info]  Select Options from suggestion
+Oct 11,2018 13:47:06 [info]  Enter Zip Code
+Oct 11,2018 13:47:06 [info]  Select Radius
+Oct 11,2018 13:47:07 [info]  Click on find button
+Oct 11,2018 13:47:17 [info]  Ad's Search Result page.
+Oct 11,2018 13:47:18 [info]  Click On Save listings link And Assert saved Listings
+Oct 11,2018 13:47:21 [info]  Click On Saved Icon in header section
+Oct 11,2018 13:47:39 [info]  Click on application logo in header
+Oct 11,2018 13:47:41 [info]  Search tab enabled
+Oct 11,2018 13:47:50 [info]  Get Keyword
+Oct 11,2018 13:47:50 [info]  Get Zip Code
+Oct 11,2018 13:47:50 [info]  Get Radius
+Oct 11,2018 13:47:50 [info]  Enter KeyWord
+Oct 11,2018 13:47:50 [info]  Select Options from suggestion
+Oct 11,2018 13:47:53 [info]  Enter Zip Code
+Oct 11,2018 13:47:54 [info]  Select Radius
+Oct 11,2018 13:47:54 [info]  Click on find button
+Oct 11,2018 13:47:59 [info]  Ad's Search Result page.
+Oct 11,2018 13:47:59 [info]  Click On Save This Search And Assert Saved Search
+Oct 11,2018 13:47:59 [info]  Oct 11,2018 13:47:59 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: '360NDCLP093', ip: '10.148.0.224', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\viveks\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62648}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 6d6b9d68f5c10cd5c3db681b4593035c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.trader.utils.DriverHelper.clickOn(DriverHelper.java:668)
+	at com.trader.pagehelper.SearchHelper.clickOnSaveThisSearchAndAssertSavedSearch(SearchHelper.java:965)
+	at com.trader.pagehelper.SearchHelper.saveSearch(SearchHelper.java:1108)
+	at com.trader.scripts.SmokeTest.allSavedListingAndSearchesOnMyTraderPage(SmokeTest.java:874)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Oct 11,2018 13:49:00 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 13:49:36 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 13:49:36 [info]  Click on More Hamburger Button
+Oct 11,2018 13:49:36 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 13:49:37 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 13:49:45 [info]  Click On Join My Trader Button
+Oct 11,2018 13:50:19 [info]  Get Password
+Oct 11,2018 13:50:19 [info]  Get Re-password
+Oct 11,2018 13:50:19 [info]  Enter Email ID
+Oct 11,2018 13:50:19 [info]  Enter Password
+Oct 11,2018 13:50:19 [info]  Enter Re-Password
+Oct 11,2018 13:50:20 [info]  Click On Join My Tader Button at Join Trader page
+Oct 11,2018 13:50:24 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 13:50:24 [info]  Click on application logo in header
+Oct 11,2018 13:50:34 [info]  Search tab enabled
+Oct 11,2018 13:50:39 [info]  Get Keyword
+Oct 11,2018 13:50:39 [info]  Get Zip Code
+Oct 11,2018 13:50:39 [info]  Get Radius
+Oct 11,2018 13:50:39 [info]  Enter KeyWord
+Oct 11,2018 13:50:39 [info]  Select Options from suggestion
+Oct 11,2018 13:50:42 [info]  Enter Zip Code
+Oct 11,2018 13:50:43 [info]  Select Radius
+Oct 11,2018 13:50:43 [info]  Click on find button
+Oct 11,2018 13:50:50 [info]  Ad's Search Result page.
+Oct 11,2018 13:50:50 [info]  Click On Save listings link And Assert saved Listings
+Oct 11,2018 13:50:57 [info]  Click On Saved Icon in header section
+Oct 11,2018 13:51:16 [info]  Click on application logo in header
+Oct 11,2018 13:51:19 [info]  Search tab enabled
+Oct 11,2018 13:51:27 [info]  Get Keyword
+Oct 11,2018 13:51:27 [info]  Get Zip Code
+Oct 11,2018 13:51:27 [info]  Get Radius
+Oct 11,2018 13:51:27 [info]  Enter KeyWord
+Oct 11,2018 13:51:27 [info]  Select Options from suggestion
+Oct 11,2018 13:51:30 [info]  Enter Zip Code
+Oct 11,2018 13:51:30 [info]  Select Radius
+Oct 11,2018 13:51:31 [info]  Click on find button
+Oct 11,2018 13:51:35 [info]  Ad's Search Result page.
+Oct 11,2018 13:51:35 [info]  Click On Save This Search And Assert Saved Search
+Oct 11,2018 13:51:42 [info]  Click On Saved Icon in header section
+Oct 11,2018 13:51:58 [info]  Click on My Trader Home Icon
+Oct 11,2018 13:52:00 [info]  Assert Saved Listing Section
+Oct 11,2018 13:52:00 [info]  Assert Saved Searches Section
+Oct 11,2018 13:52:00 [info]  Click on Edit under Saved Listing Section
+Oct 11,2018 13:52:03 [info]  Click on My Trader Home Icon
+Oct 11,2018 13:52:06 [info]  Click on Edit under Saved Searches Section
+Oct 11,2018 13:52:12 [info]  Click on More Hamburger Button
+Oct 11,2018 13:52:12 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 13:52:12 [info]  Click on Sign out of My Trader link
+Oct 11,2018 13:52:16 [info]  Assert successfully signout
+Oct 11,2018 13:52:39 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 13:53:03 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 13:53:03 [info]  Click on More Hamburger Button
+Oct 11,2018 13:53:03 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 13:53:03 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 13:53:10 [info]  Click On Join My Trader Button
+Oct 11,2018 13:53:14 [info]  Get Password
+Oct 11,2018 13:53:14 [info]  Get Re-password
+Oct 11,2018 13:53:14 [info]  Enter Email ID
+Oct 11,2018 13:53:14 [info]  Enter Password
+Oct 11,2018 13:53:15 [info]  Enter Re-Password
+Oct 11,2018 13:53:15 [info]  Click On Join My Tader Button at Join Trader page
+Oct 11,2018 13:53:20 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 13:53:20 [info]  Click on application logo in header
+Oct 11,2018 13:53:22 [info]  Search tab enabled
+Oct 11,2018 13:53:32 [info]  Get Keyword
+Oct 11,2018 13:53:32 [info]  Get Zip Code
+Oct 11,2018 13:53:32 [info]  Get Radius
+Oct 11,2018 13:53:32 [info]  Enter KeyWord
+Oct 11,2018 13:53:32 [info]  Select Options from suggestion
+Oct 11,2018 13:53:35 [info]  Enter Zip Code
+Oct 11,2018 13:53:36 [info]  Select Radius
+Oct 11,2018 13:53:36 [info]  Click on find button
+Oct 11,2018 13:53:43 [info]  Ad's Search Result page.
+Oct 11,2018 13:53:43 [info]  Click On Save listings link And Assert saved Listings
+Oct 11,2018 13:53:52 [info]  Click On Saved Icon in header section
+Oct 11,2018 13:54:12 [info]  Click on application logo in header
+Oct 11,2018 13:54:15 [info]  Search tab enabled
+Oct 11,2018 13:54:22 [info]  Get Keyword
+Oct 11,2018 13:54:22 [info]  Get Zip Code
+Oct 11,2018 13:54:22 [info]  Get Radius
+Oct 11,2018 13:54:22 [info]  Enter KeyWord
+Oct 11,2018 13:54:23 [info]  Select Options from suggestion
+Oct 11,2018 13:54:26 [info]  Enter Zip Code
+Oct 11,2018 13:54:26 [info]  Select Radius
+Oct 11,2018 13:54:27 [info]  Click on find button
+Oct 11,2018 13:54:32 [info]  Ad's Search Result page.
+Oct 11,2018 13:54:32 [info]  Click On Save This Search And Assert Saved Search
+Oct 11,2018 13:54:45 [info]  Click On Saved Icon in header section
+Oct 11,2018 13:56:17 [info]  Click on My Trader Home Icon
+Oct 11,2018 13:56:45 [info]  Assert Saved Listing Section
+Oct 11,2018 13:56:45 [info]  Assert Saved Searches Section
+Oct 11,2018 13:56:45 [info]  Click on Edit under Saved Listing Section
+Oct 11,2018 13:56:50 [info]  Click on My Trader Home Icon
+Oct 11,2018 13:57:15 [info]  Click on Edit under Saved Searches Section
+Oct 11,2018 13:57:42 [info]  Click on More Hamburger Button
+Oct 11,2018 13:57:43 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 13:57:43 [info]  Click on Sign out of My Trader link
+Oct 11,2018 13:58:05 [info]  Assert successfully signout
+Oct 11,2018 13:59:02 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 13:59:46 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 13:59:46 [info]  Click On News Menu
+Oct 11,2018 13:59:47 [info]  Assert News page
+Oct 11,2018 13:59:50 [info]  Oct 11,2018 13:59:50 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.trader.pagehelper.TraderMenus.assertNewsPage(TraderMenus.java:132)
+	at com.trader.scripts.SmokeTest.clickAndAssertNewsMenuAndPage(SmokeTest.java:536)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Oct 11,2018 14:03:06 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 14:04:25 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 14:04:25 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 11,2018 14:05:20 [info]  Assert Find Motorcycle Dealers page.
+Oct 11,2018 14:05:20 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 11,2018 14:08:34 [info]  Click On Dealers Links And Assert SearchResult Page
+Oct 11,2018 14:09:29 [info]  Oct 11,2018 14:09:29 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://ul[@class='list-unstyled margin-top10']/li[1]//div/h1 Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at com.trader.utils.DriverHelper.clickOn(DriverHelper.java:665)
+	at com.trader.pagehelper.DealerHelper.clickOnDealersLinksAndAssertSearchResultPage(DealerHelper.java:86)
+	at com.trader.scripts.SmokeTest.dealersLinkredirectionFromDealersResultPage(SmokeTest.java:623)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Oct 11,2018 14:18:31 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 14:23:31 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 11,2018 14:27:38 [info]  Assert Find Motorcycle Dealers page.
+Oct 11,2018 14:27:38 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 11,2018 14:28:20 [info]  Click On Dealers Links And Assert SearchResult Page
+Oct 11,2018 14:33:56 [info]  Oct 11,2018 14:33:56 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: '360NDCLP093', ip: '192.168.13.8', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\viveks\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54435}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 21bb3ccfddc6e8e7f041f4172340bf13
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.trader.utils.DriverHelper.clickOn(DriverHelper.java:668)
+	at com.trader.pagehelper.DealerHelper.clickOnDealersLinksAndAssertSearchResultPage(DealerHelper.java:89)
+	at com.trader.scripts.SmokeTest.dealersLinkredirectionFromDealersResultPage(SmokeTest.java:623)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Oct 11,2018 14:58:27 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 15:01:36 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 15:01:36 [info]  Click on More Hamburger Button
+Oct 11,2018 15:01:37 [info]  Assert Hamburger listing and close icon
+Oct 11,2018 15:01:37 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 15:02:04 [info]  Click On Join My Trader Button
+Oct 11,2018 15:02:32 [info]  Get Password
+Oct 11,2018 15:02:32 [info]  Get Re-password
+Oct 11,2018 15:02:32 [info]  Enter Email ID
+Oct 11,2018 15:02:33 [info]  Enter Password
+Oct 11,2018 15:02:33 [info]  Enter Re-Password
+Oct 11,2018 15:02:33 [info]  Click On Join My Tader Button at Join Trader page
+Oct 11,2018 15:02:47 [info]  Welcome to My Trader text on My Trader page
+Oct 11,2018 15:02:48 [info]  Click on application logo in header
+Oct 11,2018 15:07:48 [info]  Oct 11,2018 15:07:48 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: '360NDCLP093', ip: '192.168.13.8', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\viveks\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61963}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 8eada3e8c8c04854484e0e48e30febca
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.trader.utils.DriverHelper.clickOn(DriverHelper.java:668)
+	at com.trader.pagehelper.HomeHelper.clickOnApplicationLogo(HomeHelper.java:276)
+	at com.trader.scripts.SmokeTest.postAnListingADWithEnhancedPackageSelected(SmokeTest.java:776)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Oct 11,2018 16:33:16 [info]  Launching browser chrome 69.0.3497.100
+Oct 11,2018 16:33:32 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 11,2018 16:33:32 [info]  Search tab enabled
+Oct 11,2018 16:33:38 [info]  Click on Advanced Search link
+Oct 11,2018 16:33:43 [info]  Motorcycles for Sale Page

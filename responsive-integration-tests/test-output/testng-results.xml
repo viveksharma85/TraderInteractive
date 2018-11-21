@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="56" total="57" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="156464" started-at="2018-10-24T08:33:00Z" finished-at="2018-10-24T08:35:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="156464" started-at="2018-10-24T08:33:00Z" finished-at="2018-10-24T08:35:37Z">
+      <class name="com.trader.scripts.SmokeTest">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.trader.scripts.SmokeTest@47db50c5]" name="setUp" is-config="true" duration-ms="902" started-at="2018-10-24T08:33:00Z" finished-at="2018-10-24T08:33:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.trader.scripts.SmokeTest.ADImageRedirectOnDetailsPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ADImageRedirectOnDetailsPage()[pri:47, instance:com.trader.scripts.SmokeTest@47db50c5]" name="ADImageRedirectOnDetailsPage" duration-ms="155460" started-at="2018-10-24T08:33:01Z" finished-at="2018-10-24T08:35:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ADImageRedirectOnDetailsPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.trader.scripts.SmokeTest@47db50c5]" name="tearDown" is-config="true" duration-ms="88" started-at="2018-10-24T08:35:36Z" finished-at="2018-10-24T08:35:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ADImageRedirectOnDetailsPage status=SUCCESS method=SmokeTest.ADImageRedirectOnDetailsPage()[pri:47, instance:com.trader.scripts.SmokeTest@47db50c5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.trader.scripts.SmokeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

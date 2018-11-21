@@ -1,0 +1,2 @@
+Nov 21,2018 13:55:09 [info]  Launching browser chrome 70.0.3538.67
+Nov 21,2018 13:55:09 [info]  ATD-3: Log in with valid Credentials

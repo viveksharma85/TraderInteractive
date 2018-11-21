@@ -1,0 +1,1149 @@
+Oct 22,2018 11:09:17 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:09:17 [info]  ATD-3: Log in with valid Credentials
+Oct 22,2018 11:09:34 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:09:34 [info]  Click Login link
+Oct 22,2018 11:09:44 [info]  Get user name
+Oct 22,2018 11:09:44 [info]  Get password
+Oct 22,2018 11:09:44 [info]  Enter Email ID
+Oct 22,2018 11:09:44 [info]  Enter Password
+Oct 22,2018 11:09:44 [info]  Click on Sign in button
+Oct 22,2018 11:10:01 [info]  Welcome to My Trader text on My Trader page
+Oct 22,2018 11:10:07 [info]  Click on More Hamburger Button
+Oct 22,2018 11:10:13 [info]  Assert Hamburger listing and close icon
+Oct 22,2018 11:10:19 [info]  Click on Sign out of My Trader link
+Oct 22,2018 11:10:31 [info]  Assert successfully signout
+Oct 22,2018 11:10:42 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:10:42 [info]  ATD-5: Validation message is displayed when trying to login with invalid
+Oct 22,2018 11:10:56 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:10:56 [info]  Click Login link
+Oct 22,2018 11:11:06 [info]  Enter Email ID
+Oct 22,2018 11:11:06 [info]  Enter Password
+Oct 22,2018 11:11:06 [info]  Click on Sign in button
+Oct 22,2018 11:11:20 [info]  User should fail to Login
+Oct 22,2018 11:11:21 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:11:37 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:11:37 [info]  Click on More Hamburger Button
+Oct 22,2018 11:11:43 [info]  Assert Hamburger listing and close icon
+Oct 22,2018 11:11:43 [info]  Welcome to My Trader text on My Trader page
+Oct 22,2018 11:11:55 [info]  Click On Join My Trader Button
+Oct 22,2018 11:12:05 [info]  Get Password
+Oct 22,2018 11:12:05 [info]  Get Re-password
+Oct 22,2018 11:12:05 [info]  Enter Email ID
+Oct 22,2018 11:12:05 [info]  Enter Password
+Oct 22,2018 11:12:05 [info]  Enter Re-Password
+Oct 22,2018 11:12:06 [info]  Click On Join My Tader Button at Join Trader page
+Oct 22,2018 11:12:19 [info]  Welcome to My Trader text on My Trader page
+Oct 22,2018 11:12:25 [info]  Click on More Hamburger Button
+Oct 22,2018 11:12:31 [info]  Assert Hamburger listing and close icon
+Oct 22,2018 11:12:37 [info]  Click on Sign out of My Trader link
+Oct 22,2018 11:12:47 [info]  Assert successfully signout
+Oct 22,2018 11:12:58 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:13:15 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:13:15 [info]  Click on More Hamburger Button
+Oct 22,2018 11:13:21 [info]  Assert Hamburger listing and close icon
+Oct 22,2018 11:13:21 [info]  Welcome to My Trader text on My Trader page
+Oct 22,2018 11:13:33 [info]  Click On Join My Trader Button
+Oct 22,2018 11:13:42 [info]  Get ExistingEmailID
+Oct 22,2018 11:13:42 [info]  Get Password
+Oct 22,2018 11:13:42 [info]  Get Re-password
+Oct 22,2018 11:13:42 [info]  Enter Existing Email ID
+Oct 22,2018 11:13:42 [info]  Enter Password
+Oct 22,2018 11:13:42 [info]  Enter Re-Password
+Oct 22,2018 11:13:42 [info]  Click On Join My Tader Button at Join Trader page
+Oct 22,2018 11:13:53 [info]  User should fail to Sign Up with Existing email
+Oct 22,2018 11:13:53 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:14:05 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:14:05 [info]  Click on More Hamburger Button
+Oct 22,2018 11:14:11 [info]  Assert Hamburger listing and close icon
+Oct 22,2018 11:14:11 [info]  Welcome to My Trader text on My Trader page
+Oct 22,2018 11:14:23 [info]  Click On Join My Trader Button
+Oct 22,2018 11:14:32 [info]  Get Password
+Oct 22,2018 11:14:32 [info]  Get Re-password
+Oct 22,2018 11:14:32 [info]  Enter Existing Email ID
+Oct 22,2018 11:14:32 [info]  Enter Password
+Oct 22,2018 11:14:33 [info]  Enter Re-Password
+Oct 22,2018 11:14:33 [info]  Click On Join My Tader Button at Join Trader page
+Oct 22,2018 11:14:39 [info]  User should fail to Sign Up with invalid email
+Oct 22,2018 11:14:39 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:15:06 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:15:06 [info]  Search tab enabled
+Oct 22,2018 11:15:16 [info]  Click on find button
+Oct 22,2018 11:15:50 [info]  Motorcycles for Sale Page
+Oct 22,2018 11:15:51 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:16:08 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:16:08 [info]  Search tab enabled
+Oct 22,2018 11:16:18 [info]  Click on Advanced Search link
+Oct 22,2018 11:16:29 [info]  Motorcycles for Sale Page
+Oct 22,2018 11:16:39 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:16:53 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:16:53 [info]  Search tab enabled
+Oct 22,2018 11:17:03 [info]  Get Keyword
+Oct 22,2018 11:17:03 [info]  Get Zip Code
+Oct 22,2018 11:17:03 [info]  Get Radius
+Oct 22,2018 11:17:03 [info]  Enter KeyWord
+Oct 22,2018 11:17:03 [info]  Select Options from suggestion
+Oct 22,2018 11:17:12 [info]  Enter Zip Code
+Oct 22,2018 11:17:12 [info]  Select Radius
+Oct 22,2018 11:17:18 [info]  Click on find button
+Oct 22,2018 11:17:37 [info]  Ad's Search Result page.
+Oct 22,2018 11:17:44 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:17:50 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:17:50 [info]  Search tab enabled
+Oct 22,2018 11:18:00 [info]  Click on Advanced Search link
+Oct 22,2018 11:18:11 [info]  Motorcycles for Sale Page
+Oct 22,2018 11:18:21 [info]  Click on Location Option on Advanced Search
+Oct 22,2018 11:18:33 [info]  Get Zip Code
+Oct 22,2018 11:18:33 [info]  Get Location Radius
+Oct 22,2018 11:18:33 [info]  Select Radius from Location option
+Oct 22,2018 11:18:46 [info]  Enter Zip code
+Oct 22,2018 11:18:46 [info]  Click on update button
+Oct 22,2018 11:19:03 [info]  Click on See Matches Button
+Oct 22,2018 11:19:25 [info]  Ad's Search Result page.
+Oct 22,2018 11:19:31 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:19:45 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:19:45 [info]  Search tab enabled
+Oct 22,2018 11:19:55 [info]  Click on Advanced Search link
+Oct 22,2018 11:20:06 [info]  Motorcycles for Sale Page
+Oct 22,2018 11:20:16 [info]  Click on Keyword option on Advaned Search
+Oct 22,2018 11:20:29 [info]  Enter Keyword option on Advaned Search
+Oct 22,2018 11:20:29 [info]  Get Keyword
+Oct 22,2018 11:20:39 [info]  Click on update button under Keyword Option
+Oct 22,2018 11:20:49 [info]  Click on See Matches Button
+Oct 22,2018 11:21:09 [info]  Ad's Search Result page.
+Oct 22,2018 11:21:15 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:21:26 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:21:26 [info]  Search tab enabled
+Oct 22,2018 11:21:36 [info]  Click on Advanced Search link
+Oct 22,2018 11:21:47 [info]  Motorcycles for Sale Page
+Oct 22,2018 11:21:57 [info]  Click on Type Option at Advanced Search page
+Oct 22,2018 11:22:08 [info]  Select Types Option From Pop up
+Oct 22,2018 11:22:19 [info]  Click on Make Option at Advanced Search page
+Oct 22,2018 11:22:35 [info]  Select Make Option at Advanced Search page
+Oct 22,2018 11:22:37 [info]  Click on Update button
+Oct 22,2018 11:22:37 [info]  Click on Category Option at Advanced Search page
+Oct 22,2018 11:22:49 [info]  Select Category Option from Category pop up at Advanced Search page
+Oct 22,2018 11:22:55 [info]  Click on Update button
+Oct 22,2018 11:22:55 [info]  Click on See Matches Button
+Oct 22,2018 11:23:12 [info]  Ad's Search Result page.
+Oct 22,2018 11:23:19 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:23:30 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:23:30 [info]  Click on Popular Makes tab
+Oct 22,2018 11:23:36 [info]  Click on all makes icon and assert result page
+Oct 22,2018 11:23:54 [info]  Click on application logo in header
+Oct 22,2018 11:24:15 [info]  Click on application logo in header
+Oct 22,2018 11:24:40 [info]  Click on application logo in header
+Oct 22,2018 11:25:02 [info]  Click on application logo in header
+Oct 22,2018 11:25:25 [info]  Click on application logo in header
+Oct 22,2018 11:25:50 [info]  Click on application logo in header
+Oct 22,2018 11:26:16 [info]  Click on application logo in header
+Oct 22,2018 11:26:38 [info]  Click on application logo in header
+Oct 22,2018 11:26:57 [info]  Click on application logo in header
+Oct 22,2018 11:27:18 [info]  Click on application logo in header
+Oct 22,2018 11:27:43 [info]  Click on application logo in header
+Oct 22,2018 11:27:51 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:28:07 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:28:07 [info]  Click on Popular Makes tab
+Oct 22,2018 11:28:14 [info]  Click on Search All
+Oct 22,2018 11:28:24 [info]  Assert BMW search result page.
+Oct 22,2018 11:28:32 [info]  Click on Browse All Icon at Sale By Makes
+Oct 22,2018 11:28:38 [info]  Assert Sales By Makes links
+Oct 22,2018 11:28:39 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:28:48 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:28:48 [info]  Click on Popular Makes tab
+Oct 22,2018 11:28:54 [info]  Click on Search All
+Oct 22,2018 11:29:05 [info]  Assert BMW search result page.
+Oct 22,2018 11:29:13 [info]  Click on Browse All Icon at Sale By Makes
+Oct 22,2018 11:29:19 [info]  Assert Sales By Makes links
+Oct 22,2018 11:29:19 [info]  Click On BMW Link
+Oct 22,2018 11:29:35 [info]  Assert BMW search result page.
+Oct 22,2018 11:29:35 [info]  Click On All Makes Breadcrumb Link
+Oct 22,2018 11:30:04 [info]  Click on Browse All Icon at Sale By Makes
+Oct 22,2018 11:30:10 [info]  Click On Yamaha Link
+Oct 22,2018 11:30:21 [info]  Assert Yamaha search result page.
+Oct 22,2018 11:30:21 [info]  Click On All Makes Breadcrumb Link
+Oct 22,2018 11:30:48 [info]  Click on Browse All Icon at Sale By Makes
+Oct 22,2018 11:30:54 [info]  Click On Honda Link
+Oct 22,2018 11:31:04 [info]  Assert Honda search result page.
+Oct 22,2018 11:31:05 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:31:17 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:31:17 [info]  Click on Popular Makes tab
+Oct 22,2018 11:31:23 [info]  Click on Search All
+Oct 22,2018 11:31:33 [info]  Assert BMW search result page.
+Oct 22,2018 11:31:41 [info]  Click On BMW Icon
+Oct 22,2018 11:31:52 [info]  Assert BMW search result page.
+Oct 22,2018 11:31:52 [info]  Click On All Makes Breadcrumb Link
+Oct 22,2018 11:32:23 [info]  Click On Triumph Icon
+Oct 22,2018 11:32:37 [info]  Assert Triumph search result page.
+Oct 22,2018 11:32:37 [info]  Click On All Makes Breadcrumb Link
+Oct 22,2018 11:33:03 [info]  Click On Yamaha Icon
+Oct 22,2018 11:33:14 [info]  Assert Yamaha search result page.
+Oct 22,2018 11:33:14 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:33:25 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:33:25 [info]  Top Motorcycle Makes Section
+Oct 22,2018 11:33:26 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:33:40 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:33:40 [info]  Top Motorcycle Makes Section
+Oct 22,2018 11:33:40 [info]  Click on Harley-Davidson Top Make link
+Oct 22,2018 11:33:49 [info]  Assert Harley search result page.
+Oct 22,2018 11:33:49 [info]  Click on application logo in header
+Oct 22,2018 11:33:59 [info]  Click on Honda Top Make link
+Oct 22,2018 11:34:11 [info]  Assert Honda search result page.
+Oct 22,2018 11:34:11 [info]  Click on application logo in header
+Oct 22,2018 11:34:19 [info]  Click on Yamaha Top Make link
+Oct 22,2018 11:34:31 [info]  Assert Yamaha search result page.
+Oct 22,2018 11:34:31 [info]  Click on application logo in header
+Oct 22,2018 11:34:39 [info]  Click on Kawasaki Top Make link
+Oct 22,2018 11:34:48 [info]  Assert Kawasaki search result page.
+Oct 22,2018 11:34:48 [info]  Click on application logo in header
+Oct 22,2018 11:34:56 [info]  Click on Can Am Top Make link
+Oct 22,2018 11:35:07 [info]  Assert CAN-Am search result page.
+Oct 22,2018 11:35:07 [info]  Click on application logo in header
+Oct 22,2018 11:35:14 [info]  Click on Suzuki Top Make link
+Oct 22,2018 11:35:26 [info]  Assert Suzuki search result page.
+Oct 22,2018 11:35:26 [info]  Click on application logo in header
+Oct 22,2018 11:35:33 [info]  Click on BMW Top Make link
+Oct 22,2018 11:35:42 [info]  Assert BMW search result page.
+Oct 22,2018 11:35:42 [info]  Click on application logo in header
+Oct 22,2018 11:35:50 [info]  Click on Triumph Top Make link
+Oct 22,2018 11:35:59 [info]  Assert Triumph search result page.
+Oct 22,2018 11:35:59 [info]  Click on application logo in header
+Oct 22,2018 11:36:07 [info]  Click on KTM Top Make link
+Oct 22,2018 11:36:18 [info]  Assert KTM search result page.
+Oct 22,2018 11:36:18 [info]  Click on application logo in header
+Oct 22,2018 11:36:30 [info]  Click on Victory Top Make link
+Oct 22,2018 11:36:39 [info]  Assert Victory search result page.
+Oct 22,2018 11:36:39 [info]  Click on application logo in header
+Oct 22,2018 11:36:47 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:36:57 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:36:57 [info]  Assert Top Model Section
+Oct 22,2018 11:36:58 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:37:07 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:37:07 [info]  Assert Top Model Section
+Oct 22,2018 11:37:07 [info]  Click on Kawasaki Ninja
+Oct 22,2018 11:37:25 [info]  Click on application logo in header
+Oct 22,2018 11:37:35 [info]  Click on Harley-davidson ELECTRA GLIDE
+Oct 22,2018 11:37:48 [info]  Click on application logo in header
+Oct 22,2018 11:37:56 [info]  Click on Honda CRF
+Oct 22,2018 11:38:07 [info]  Click on application logo in header
+Oct 22,2018 11:38:17 [info]  Click on Honda CBR
+Oct 22,2018 11:38:28 [info]  Click on application logo in header
+Oct 22,2018 11:38:37 [info]  Click on Harley-davidson STREET GLIDE
+Oct 22,2018 11:38:50 [info]  Click on application logo in header
+Oct 22,2018 11:38:58 [info]  Click on Kawasaki VULCAN
+Oct 22,2018 11:39:11 [info]  Click on application logo in header
+Oct 22,2018 11:39:19 [info]  Click on Can-am SPYDER
+Oct 22,2018 11:39:32 [info]  Click on application logo in header
+Oct 22,2018 11:39:40 [info]  Click on Yamaha YZF
+Oct 22,2018 11:39:53 [info]  Click on application logo in header
+Oct 22,2018 11:40:01 [info]  Click on Yamaha V STAR
+Oct 22,2018 11:40:13 [info]  Click on application logo in header
+Oct 22,2018 11:40:21 [info]  Click on Harley-davidson ROAD GLIDE
+Oct 22,2018 11:40:31 [info]  Click on application logo in header
+Oct 22,2018 11:40:40 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:40:54 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:40:54 [info]  Click on Popular Type Tab
+Oct 22,2018 11:41:00 [info]  Click on search all under Popular Type Tab
+Oct 22,2018 11:41:10 [info]  Motorcycles for Sale Page
+Oct 22,2018 11:41:10 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:41:21 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:41:21 [info]  Assert Top Model Section
+Oct 22,2018 11:41:21 [info]  Click on Popular Type Tab
+Oct 22,2018 11:41:27 [info]  set Popular TypeCruiser'
+Oct 22,2018 11:41:27 [info]  set Type List 'Cruiser'
+Oct 22,2018 11:41:54 [info]  Click on application logo in header
+Oct 22,2018 11:42:02 [info]  Click on Popular Type Tab
+Oct 22,2018 11:42:08 [info]  set Popular TypeDirt Bike'
+Oct 22,2018 11:42:08 [info]  set Type List 'Dirt Bike'
+Oct 22,2018 11:42:32 [info]  Click on application logo in header
+Oct 22,2018 11:42:42 [info]  Click on Popular Type Tab
+Oct 22,2018 11:42:48 [info]  set Popular TypeSportbike'
+Oct 22,2018 11:42:48 [info]  set Type List 'Sportbike'
+Oct 22,2018 11:43:08 [info]  Click on application logo in header
+Oct 22,2018 11:43:18 [info]  Click on Popular Type Tab
+Oct 22,2018 11:43:24 [info]  set Popular TypeStandard'
+Oct 22,2018 11:43:24 [info]  set Type List 'Standard'
+Oct 22,2018 11:43:43 [info]  Click on application logo in header
+Oct 22,2018 11:43:52 [info]  Click on Popular Type Tab
+Oct 22,2018 11:43:58 [info]  set Popular TypeTouring'
+Oct 22,2018 11:43:58 [info]  set Type List 'Touring'
+Oct 22,2018 11:44:17 [info]  Click on application logo in header
+Oct 22,2018 11:44:26 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:44:38 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:44:38 [info]  Assert Top Type Section
+Oct 22,2018 11:44:49 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:44:59 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:44:59 [info]  Assert Top Type Section
+Oct 22,2018 11:45:41 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:45:53 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:45:53 [info]  Click on Popular State tab
+Oct 22,2018 11:45:59 [info]  Click on Search All under Popular State tab
+Oct 22,2018 11:46:09 [info]  Assert State result page
+Oct 22,2018 11:46:10 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:46:23 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:46:23 [info]  Assert Popular State Section
+Oct 22,2018 11:46:23 [info]  Click on Popular State tab
+Oct 22,2018 11:46:29 [info]  set Popular StateAlabama'
+Oct 22,2018 11:46:29 [info]  set Type List 'Alabama'
+Oct 22,2018 11:46:54 [info]  Click on application logo in header
+Oct 22,2018 11:47:08 [info]  Click on Popular State tab
+Oct 22,2018 11:47:15 [info]  set Popular StateCalifornia'
+Oct 22,2018 11:47:15 [info]  set Type List 'California'
+Oct 22,2018 11:52:31 [info]  Oct 22,2018 11:52:31 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.16.3-301.fc28.x86_64 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'localhost.localdomain', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.16.3-301.fc28.x86_64', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591071 (0b695ff80972cc..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:35909}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: 8cc4e66e04a74767eeb400674330f4e0
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.trader.utils.DriverHelper.clickOn(DriverHelper.java:672)
+	at com.trader.pagehelper.HomeHelper.clickAndAssertPopularStateLinks(HomeHelper.java:895)
+	at com.trader.scripts.SmokeTest.searchWithStateUnderPopularState(SmokeTest.java:386)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Oct 22,2018 11:52:31 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:52:42 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:52:42 [info]  Click on find button
+Oct 22,2018 11:53:03 [info]  Click on Location Option on Advanced Search
+Oct 22,2018 11:53:21 [info]  Get Zip Code
+Oct 22,2018 11:53:21 [info]  Get Location Radius
+Oct 22,2018 11:53:21 [info]  Select Radius from Location option
+Oct 22,2018 11:53:34 [info]  Enter Zip code
+Oct 22,2018 11:53:40 [info]  Click on update button
+Oct 22,2018 11:53:57 [info]  Assert Location updates
+Oct 22,2018 11:54:05 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:54:15 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:54:15 [info]  Click on find button
+Oct 22,2018 11:54:31 [info]  Click on Keyword option on Advaned Search
+Oct 22,2018 11:54:43 [info]  Enter Keyword And Select Suggestion
+Oct 22,2018 11:54:43 [info]  Get Keyword
+Oct 22,2018 11:54:57 [info]  Click on update button under Keyword Option
+Oct 22,2018 11:55:08 [info]  Wait for Updating Spinner
+Oct 22,2018 11:55:10 [info]  Ad's Search Result page.
+Oct 22,2018 11:55:18 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:55:28 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:55:28 [info]  Click on find button
+Oct 22,2018 11:55:45 [info]  Click on Make Option at Advanced Search page
+Oct 22,2018 11:56:01 [info]  Select Make Option at Advanced Search page
+Oct 22,2018 11:56:08 [info]  Click on Update button
+Oct 22,2018 11:56:14 [info]  Oct 22,2018 11:56:14 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.trader.pagehelper.SearchHelper.selectMakesOptionAndAssertSearchResultPage(SearchHelper.java:855)
+	at com.trader.scripts.SmokeTest.refineSearchWithAllRefinedOption(SmokeTest.java:427)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Oct 22,2018 11:56:14 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:56:25 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:56:25 [info]  Click on find button
+Oct 22,2018 11:56:41 [info]  Click on Make Option at Advanced Search page
+Oct 22,2018 11:56:57 [info]  Recent search link
+Oct 22,2018 11:57:08 [info]  Click on Update button
+Oct 22,2018 11:57:22 [info]  Click on Recent Search section
+Oct 22,2018 11:57:32 [info]  Click on Recent Search link
+Oct 22,2018 11:57:54 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:58:04 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:58:04 [info]  Click on find button
+Oct 22,2018 11:58:23 [info]  Click on Make Option at Advanced Search page
+Oct 22,2018 11:58:40 [info]  Select Make Option at Advanced Search page
+Oct 22,2018 11:58:46 [info]  Click on Update button
+Oct 22,2018 11:58:52 [info]  Click on application logo in header
+Oct 22,2018 11:59:02 [info]  Search tab enabled
+Oct 22,2018 11:59:12 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 11:59:25 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 11:59:25 [info]  Search tab enabled
+Oct 22,2018 11:59:35 [info]  Click on Buy Menu and assert Result page
+Oct 22,2018 12:00:00 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 12:00:10 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 12:00:10 [info]  Search tab enabled
+Oct 22,2018 12:00:20 [info]  Click on Buy Menu and assert Result page
+Oct 22,2018 12:00:43 [info]  Click On Find By Make Button And Assert Result Page
+Oct 22,2018 12:00:49 [info]  Find Motorcycles For Sale
+Oct 22,2018 12:01:15 [info]  Click On Find By Type Button And Assert Result Page
+Oct 22,2018 12:01:46 [info]  Click On Find By State Button And Assert Result Page
+Oct 22,2018 12:02:02 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 12:02:14 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 12:02:14 [info]  Search tab enabled
+Oct 22,2018 12:02:24 [info]  Click on Buy Menu and assert Result page
+Oct 22,2018 12:02:47 [info]  Click on See Matches Button
+Oct 22,2018 12:03:03 [info]  Ad's Search Result page.
+Oct 22,2018 12:03:10 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 12:03:23 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 12:03:23 [info]  Click On Sell For Free Menu And Assert Result Page
+Oct 22,2018 12:03:33 [info]  Click on Sell Motorcycle button
+Oct 22,2018 12:03:53 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 12:04:06 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 12:04:06 [info]  Click On Research Menu
+Oct 22,2018 12:04:25 [info]  Assert Research page
+Oct 22,2018 12:04:35 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 12:04:48 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 12:04:48 [info]  Click On Race Team Menu
+Oct 22,2018 12:04:54 [info]  Assert Race Team page
+Oct 22,2018 12:05:24 [info]  Oct 22,2018 12:05:24 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.trader.pagehelper.TraderMenus.assertRaceTeamPage(TraderMenus.java:119)
+	at com.trader.scripts.SmokeTest.clickAndAssertRaceTeamMenuAndPage(SmokeTest.java:525)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Oct 22,2018 12:05:25 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 12:05:35 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 12:05:35 [info]  Click On News Menu
+Oct 22,2018 12:05:48 [info]  Assert News page
+Oct 22,2018 12:05:55 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 12:06:07 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 12:06:07 [info]  Click on More Hamburger Button
+Oct 22,2018 12:06:14 [info]  Assert Hamburger listing and close icon
+Oct 22,2018 12:06:14 [info]  Welcome to My Trader text on My Trader page
+Oct 22,2018 12:06:26 [info]  Click On Join My Trader Button
+Oct 22,2018 12:06:35 [info]  Get Password
+Oct 22,2018 12:06:35 [info]  Get Re-password
+Oct 22,2018 12:06:35 [info]  Enter Email ID
+Oct 22,2018 12:06:36 [info]  Enter Password
+Oct 22,2018 12:06:36 [info]  Enter Re-Password
+Oct 22,2018 12:06:36 [info]  Click On Join My Tader Button at Join Trader page
+Oct 22,2018 12:06:45 [info]  Welcome to My Trader text on My Trader page
+Oct 22,2018 12:06:51 [info]  Click on application logo in header
+Oct 22,2018 12:07:01 [info]  Click On Sell For Free Menu And Assert Result Page
+Oct 22,2018 12:07:11 [info]  Click on Sell Motorcycle button
+Oct 22,2018 12:07:30 [info]  Click on Select Free button
+Oct 22,2018 12:07:42 [info]  Assert Enter Vehicle Info Tab
+Oct 22,2018 12:07:42 [info]  Select Motocycle Class in Class drop down
+Oct 22,2018 12:07:49 [info]  Select Listing Year from Year drop down
+Oct 22,2018 12:07:55 [info]  Select listing Make from Make drop down
+Oct 22,2018 12:08:01 [info]  Select listing Model from Model drop down
+Oct 22,2018 12:08:11 [info]  Select listing Trim from Trim drop down
+Oct 22,2018 12:08:22 [info]  Enter listing Price in Price field
+Oct 22,2018 12:08:26 [info]  Select listing Price Tagline from Price Tagline drop down
+Oct 22,2018 12:08:32 [info]  Select listing Category from Category drop down
+Oct 22,2018 12:08:32 [info]  Enter listing message in Message field
+Oct 22,2018 12:08:39 [info]  Click On Enter Your Contact Info Tab
+Oct 22,2018 12:08:45 [info]  Enter First Name and Last Name
+Oct 22,2018 12:08:45 [info]  Enter Contact Address
+Oct 22,2018 12:08:45 [info]  Enter Contact City
+Oct 22,2018 12:08:46 [info]  Select Contact State
+Oct 22,2018 12:08:46 [info]  Enter Contact Zip Code
+Oct 22,2018 12:08:46 [info]  Enter Contact Phone Number
+Oct 22,2018 12:08:46 [info]  Click on Checkout button
+Oct 22,2018 12:08:52 [info]  Wait for Updating Spinner
+Oct 22,2018 12:09:22 [info]  Assert Listing Confirmation Page
+Oct 22,2018 12:09:26 [info]  Click on More Hamburger Button
+Oct 22,2018 12:09:32 [info]  Assert Hamburger listing and close icon
+Oct 22,2018 12:09:38 [info]  Click on Sign out of My Trader link
+Oct 22,2018 12:09:50 [info]  Assert successfully signout
+Oct 22,2018 12:10:00 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 12:10:14 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 12:10:14 [info]  Click On Dealers Menu
+Oct 22,2018 12:10:26 [info]  Click On Search Dealer Button
+Oct 22,2018 12:10:43 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:10:48 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 12:11:02 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 12:11:02 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:11:15 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:11:19 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 12:11:30 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 12:11:30 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:11:44 [info]  Assert Find By State Section
+Oct 22,2018 12:11:45 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 12:11:56 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 12:11:56 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:12:10 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:12:14 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 22,2018 12:12:36 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 12:12:48 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 12:12:48 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:13:01 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:13:05 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 22,2018 12:13:28 [info]  Click On Dealers Links And Assert SearchResult Page
+Oct 22,2018 12:13:57 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:14:09 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:14:13 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 22,2018 12:14:57 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:15:09 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:15:14 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 22,2018 12:15:55 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:16:10 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:16:14 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 22,2018 12:16:57 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:17:09 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:17:13 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 22,2018 12:17:54 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:18:07 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:18:11 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 22,2018 12:18:52 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:19:04 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:19:08 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 22,2018 12:19:49 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:20:01 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:20:05 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 22,2018 12:20:46 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:20:58 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:21:03 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 22,2018 12:21:45 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:21:57 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:22:01 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 22,2018 12:22:44 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:22:56 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:23:00 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 22,2018 12:23:45 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:23:57 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:24:01 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 22,2018 12:24:42 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:24:54 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:24:58 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 22,2018 12:25:40 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:25:52 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:25:56 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 22,2018 12:26:37 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:26:50 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:26:54 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 22,2018 12:27:35 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:27:47 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:27:51 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 22,2018 12:28:33 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:28:48 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:28:52 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 22,2018 12:29:34 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:29:47 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:29:51 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 22,2018 12:30:32 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:30:44 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:30:49 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 22,2018 12:31:30 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:31:45 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:31:49 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 22,2018 12:32:31 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:32:43 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:32:47 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 22,2018 12:33:28 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:33:40 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:33:44 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 22,2018 12:34:25 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:34:37 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:34:41 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 22,2018 12:35:23 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:35:35 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:35:39 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 22,2018 12:36:24 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:36:36 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:36:40 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 22,2018 12:37:21 [info]  Click on Find Motorcycle Dealers link at Home page
+Oct 22,2018 12:37:33 [info]  Assert Find Motorcycle Dealers page.
+Oct 22,2018 12:37:37 [info]  Click on Search button at Find Motorcycle Dealers page and assert result page.
+Oct 22,2018 12:38:01 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 12:38:12 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 12:38:12 [info]  Click on More Hamburger Button
+Oct 22,2018 12:38:18 [info]  Assert Hamburger listing and close icon
+Oct 22,2018 12:38:18 [info]  Welcome to My Trader text on My Trader page
+Oct 22,2018 12:38:30 [info]  Click On Join My Trader Button
+Oct 22,2018 12:38:39 [info]  Get Password
+Oct 22,2018 12:38:39 [info]  Get Re-password
+Oct 22,2018 12:38:39 [info]  Enter Email ID
+Oct 22,2018 12:38:39 [info]  Enter Password
+Oct 22,2018 12:38:40 [info]  Enter Re-Password
+Oct 22,2018 12:38:40 [info]  Click On Join My Tader Button at Join Trader page
+Oct 22,2018 12:38:50 [info]  Welcome to My Trader text on My Trader page
+Oct 22,2018 12:38:56 [info]  Click on application logo in header
+Oct 22,2018 12:39:04 [info]  Get Keyword
+Oct 22,2018 12:39:04 [info]  Get Zip Code
+Oct 22,2018 12:39:04 [info]  Get Radius
+Oct 22,2018 12:39:04 [info]  Enter KeyWord
+Oct 22,2018 12:39:04 [info]  Select Options from suggestion
+Oct 22,2018 12:39:13 [info]  Enter Zip Code
+Oct 22,2018 12:39:13 [info]  Select Radius
+Oct 22,2018 12:39:19 [info]  Click on find button
+Oct 22,2018 12:39:39 [info]  Ad's Search Result page.
+Oct 22,2018 12:39:45 [info]  Click On Save This Search And Assert Saved Search
+Oct 22,2018 12:40:04 [info]  Click On Saved Icon in header section
+Oct 22,2018 12:40:32 [info]  Click on More Hamburger Button
+Oct 22,2018 12:40:39 [info]  Assert Hamburger listing and close icon
+Oct 22,2018 12:40:45 [info]  Click on Sign out of My Trader link
+Oct 22,2018 12:40:55 [info]  Assert successfully signout
+Oct 22,2018 12:41:06 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 12:41:15 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 12:41:15 [info]  Click on More Hamburger Button
+Oct 22,2018 12:41:21 [info]  Assert Hamburger listing and close icon
+Oct 22,2018 12:41:21 [info]  Welcome to My Trader text on My Trader page
+Oct 22,2018 12:41:36 [info]  Click On Join My Trader Button
+Oct 22,2018 12:41:45 [info]  Get Password
+Oct 22,2018 12:41:45 [info]  Get Re-password
+Oct 22,2018 12:41:45 [info]  Enter Email ID
+Oct 22,2018 12:41:45 [info]  Enter Password
+Oct 22,2018 12:41:45 [info]  Enter Re-Password
+Oct 22,2018 12:41:45 [info]  Click On Join My Tader Button at Join Trader page
+Oct 22,2018 12:41:54 [info]  Welcome to My Trader text on My Trader page
+Oct 22,2018 12:42:00 [info]  Click on application logo in header
+Oct 22,2018 12:42:12 [info]  Get Keyword
+Oct 22,2018 12:42:12 [info]  Get Zip Code
+Oct 22,2018 12:42:12 [info]  Get Radius
+Oct 22,2018 12:42:12 [info]  Enter KeyWord
+Oct 22,2018 12:42:12 [info]  Select Options from suggestion
+Oct 22,2018 12:42:21 [info]  Enter Zip Code
+Oct 22,2018 12:42:21 [info]  Select Radius
+Oct 22,2018 12:42:27 [info]  Click on find button
+Oct 22,2018 12:43:01 [info]  Ad's Search Result page.
+Oct 22,2018 12:43:07 [info]  Click On Ad And Assert Ad Details Page
+Oct 22,2018 12:43:21 [info]  Assert Listing Name
+Oct 22,2018 12:43:37 [info]  Click On Saved Icon in header section
+Oct 22,2018 12:44:15 [info]  Click on More Hamburger Button
+Oct 22,2018 12:44:21 [info]  Assert Hamburger listing and close icon
+Oct 22,2018 12:44:27 [info]  Click on Sign out of My Trader link
+Oct 22,2018 12:44:37 [info]  Assert successfully signout
+Oct 22,2018 12:44:48 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 12:45:01 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 12:45:01 [info]  Click on More Hamburger Button
+Oct 22,2018 12:45:07 [info]  Assert Hamburger listing and close icon
+Oct 22,2018 12:45:07 [info]  Welcome to My Trader text on My Trader page
+Oct 22,2018 12:45:22 [info]  Click On Join My Trader Button
+Oct 22,2018 12:45:36 [info]  Get Password
+Oct 22,2018 12:45:36 [info]  Get Re-password
+Oct 22,2018 12:45:36 [info]  Enter Email ID
+Oct 22,2018 12:45:37 [info]  Enter Password
+Oct 22,2018 12:45:37 [info]  Enter Re-Password
+Oct 22,2018 12:45:37 [info]  Click On Join My Tader Button at Join Trader page
+Oct 22,2018 12:45:48 [info]  Welcome to My Trader text on My Trader page
+Oct 22,2018 12:45:55 [info]  Click on application logo in header
+Oct 22,2018 12:46:05 [info]  Search tab enabled
+Oct 22,2018 12:46:15 [info]  Get Keyword
+Oct 22,2018 12:46:15 [info]  Get Zip Code
+Oct 22,2018 12:46:15 [info]  Get Radius
+Oct 22,2018 12:46:15 [info]  Enter KeyWord
+Oct 22,2018 12:46:15 [info]  Select Options from suggestion
+Oct 22,2018 12:46:24 [info]  Enter Zip Code
+Oct 22,2018 12:46:25 [info]  Select Radius
+Oct 22,2018 12:46:31 [info]  Click on find button
+Oct 22,2018 12:46:43 [info]  Ad's Search Result page.
+Oct 22,2018 12:47:19 [info]  Oct 22,2018 12:47:19 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.trader.pagehelper.SearchHelper.assertAdSearchResult(SearchHelper.java:181)
+	at com.trader.scripts.SmokeTest.ableToSaveListingFromSearchResultPage(SmokeTest.java:704)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Oct 22,2018 12:47:20 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 12:47:35 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 12:47:35 [info]  Click Login link
+Oct 22,2018 12:47:48 [info]  Get user name
+Oct 22,2018 12:47:48 [info]  Get password
+Oct 22,2018 12:47:48 [info]  Enter Email ID
+Oct 22,2018 12:47:48 [info]  Enter Password
+Oct 22,2018 12:47:48 [info]  Click on Sign in button
+Oct 22,2018 12:48:02 [info]  Welcome to My Trader text on My Trader page
+Oct 22,2018 12:48:08 [info]  Click on application logo in header
+Oct 22,2018 12:48:21 [info]  Search tab enabled
+Oct 22,2018 12:48:31 [info]  Get Keyword
+Oct 22,2018 12:48:31 [info]  Get Zip Code
+Oct 22,2018 12:48:31 [info]  Get Radius
+Oct 22,2018 12:48:31 [info]  Enter KeyWord
+Oct 22,2018 12:48:31 [info]  Select Options from suggestion
+Oct 22,2018 12:48:40 [info]  Enter Zip Code
+Oct 22,2018 12:48:41 [info]  Select Radius
+Oct 22,2018 12:48:47 [info]  Click on find button
+Oct 22,2018 12:48:59 [info]  Ad's Search Result page.
+Oct 22,2018 12:49:35 [info]  Oct 22,2018 12:49:35 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.trader.pagehelper.SearchHelper.assertAdSearchResult(SearchHelper.java:181)
+	at com.trader.scripts.SmokeTest.ADImageRedirectOnDetailsPage(SmokeTest.java:727)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Oct 22,2018 12:49:36 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 12:49:51 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 12:49:51 [info]  Click Login link
+Oct 22,2018 12:50:01 [info]  Get user name
+Oct 22,2018 12:50:01 [info]  Get password
+Oct 22,2018 12:50:01 [info]  Enter Email ID
+Oct 22,2018 12:50:01 [info]  Enter Password
+Oct 22,2018 12:50:01 [info]  Click on Sign in button
+Oct 22,2018 12:50:18 [info]  Welcome to My Trader text on My Trader page
+Oct 22,2018 12:50:24 [info]  Click on application logo in header
+Oct 22,2018 12:50:33 [info]  Search tab enabled
+Oct 22,2018 12:50:43 [info]  Get Keyword
+Oct 22,2018 12:50:43 [info]  Get Zip Code
+Oct 22,2018 12:50:43 [info]  Get Radius
+Oct 22,2018 12:50:43 [info]  Enter KeyWord
+Oct 22,2018 12:50:43 [info]  Select Options from suggestion
+Oct 22,2018 12:50:52 [info]  Enter Zip Code
+Oct 22,2018 12:50:52 [info]  Select Radius
+Oct 22,2018 12:50:59 [info]  Click on find button
+Oct 22,2018 12:51:11 [info]  Ad's Search Result page.
+Oct 22,2018 12:51:47 [info]  Oct 22,2018 12:51:47 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.trader.pagehelper.SearchHelper.assertAdSearchResult(SearchHelper.java:181)
+	at com.trader.scripts.SmokeTest.EmailOnlyRedirectOnContactSellerSection(SmokeTest.java:751)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Oct 22,2018 12:51:47 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 12:52:00 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 12:52:00 [info]  Click on More Hamburger Button
+Oct 22,2018 12:52:06 [info]  Assert Hamburger listing and close icon
+Oct 22,2018 12:52:06 [info]  Welcome to My Trader text on My Trader page
+Oct 22,2018 12:52:18 [info]  Click On Join My Trader Button
+Oct 22,2018 12:52:29 [info]  Get Password
+Oct 22,2018 12:52:29 [info]  Get Re-password
+Oct 22,2018 12:52:29 [info]  Enter Email ID
+Oct 22,2018 12:52:29 [info]  Enter Password
+Oct 22,2018 12:52:29 [info]  Enter Re-Password
+Oct 22,2018 12:52:29 [info]  Click On Join My Tader Button at Join Trader page
+Oct 22,2018 12:52:40 [info]  Welcome to My Trader text on My Trader page
+Oct 22,2018 12:52:46 [info]  Click on application logo in header
+Oct 22,2018 12:52:55 [info]  Click On Sell For Free Menu And Assert Result Page
+Oct 22,2018 12:53:05 [info]  Click on Sell Motorcycle button
+Oct 22,2018 12:53:25 [info]  Click on Select Enhanced button
+Oct 22,2018 12:53:39 [info]  Assert Enter Vehicle Info Tab
+Oct 22,2018 12:53:39 [info]  Select Motocycle Class in Class drop down
+Oct 22,2018 12:53:45 [info]  Select Listing Year from Year drop down
+Oct 22,2018 12:53:51 [info]  Select listing Make from Make drop down
+Oct 22,2018 12:53:58 [info]  Select listing Model from Model drop down
+Oct 22,2018 12:54:08 [info]  Select listing Trim from Trim drop down
+Oct 22,2018 12:54:18 [info]  Enter listing Price in Price field
+Oct 22,2018 12:54:22 [info]  Select listing Price Tagline from Price Tagline drop down
+Oct 22,2018 12:54:28 [info]  Select listing Category from Category drop down
+Oct 22,2018 12:54:29 [info]  Enter listing message in Message field
+Oct 22,2018 12:54:35 [info]  Click On Enter Your Contact Info Tab
+Oct 22,2018 12:54:41 [info]  Enter First Name and Last Name
+Oct 22,2018 12:54:41 [info]  Enter Contact Address
+Oct 22,2018 12:54:42 [info]  Enter Contact City
+Oct 22,2018 12:54:42 [info]  Select Contact State
+Oct 22,2018 12:54:42 [info]  Enter Contact Zip Code
+Oct 22,2018 12:54:42 [info]  Enter Contact Phone Number
+Oct 22,2018 12:54:42 [info]  Enter Coupon code
+Oct 22,2018 12:54:42 [info]  Click on Apply coupon code button
+Oct 22,2018 12:54:49 [info]  Click on Checkout button
+Oct 22,2018 12:54:55 [info]  Wait for Updating Spinner
+Oct 22,2018 12:55:25 [info]  Assert Listing Confirmation Page
+Oct 22,2018 12:55:29 [info]  Click on More Hamburger Button
+Oct 22,2018 12:55:35 [info]  Assert Hamburger listing and close icon
+Oct 22,2018 12:55:41 [info]  Click on Sign out of My Trader link
+Oct 22,2018 12:55:51 [info]  Assert successfully signout
+Oct 22,2018 12:56:01 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 12:56:18 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 12:56:18 [info]  Click on More Hamburger Button
+Oct 22,2018 12:56:24 [info]  Assert Hamburger listing and close icon
+Oct 22,2018 12:56:24 [info]  Welcome to My Trader text on My Trader page
+Oct 22,2018 12:56:40 [info]  Click On Join My Trader Button
+Oct 22,2018 12:56:49 [info]  Get Password
+Oct 22,2018 12:56:49 [info]  Get Re-password
+Oct 22,2018 12:56:49 [info]  Enter Email ID
+Oct 22,2018 12:56:50 [info]  Enter Password
+Oct 22,2018 12:56:50 [info]  Enter Re-Password
+Oct 22,2018 12:56:50 [info]  Click On Join My Tader Button at Join Trader page
+Oct 22,2018 12:57:03 [info]  Welcome to My Trader text on My Trader page
+Oct 22,2018 12:57:09 [info]  Click on application logo in header
+Oct 22,2018 12:57:18 [info]  Click On Sell For Free Menu And Assert Result Page
+Oct 22,2018 12:57:28 [info]  Click on Sell Motorcycle button
+Oct 22,2018 12:57:47 [info]  Click on Select Best button
+Oct 22,2018 12:58:00 [info]  Assert Enter Vehicle Info Tab
+Oct 22,2018 12:58:00 [info]  Select Motocycle Class in Class drop down
+Oct 22,2018 12:58:06 [info]  Select Listing Year from Year drop down
+Oct 22,2018 12:58:12 [info]  Select listing Make from Make drop down
+Oct 22,2018 12:58:19 [info]  Select listing Model from Model drop down
+Oct 22,2018 12:58:29 [info]  Select listing Trim from Trim drop down
+Oct 22,2018 12:58:39 [info]  Enter listing Price in Price field
+Oct 22,2018 12:58:43 [info]  Select listing Price Tagline from Price Tagline drop down
+Oct 22,2018 12:58:50 [info]  Select listing Category from Category drop down
+Oct 22,2018 12:58:50 [info]  Enter listing message in Message field
+Oct 22,2018 12:58:56 [info]  Click On Enter Your Contact Info Tab
+Oct 22,2018 12:59:02 [info]  Enter First Name and Last Name
+Oct 22,2018 12:59:03 [info]  Enter Contact Address
+Oct 22,2018 12:59:03 [info]  Enter Contact City
+Oct 22,2018 12:59:03 [info]  Select Contact State
+Oct 22,2018 12:59:03 [info]  Enter Contact Zip Code
+Oct 22,2018 12:59:03 [info]  Enter Contact Phone Number
+Oct 22,2018 12:59:03 [info]  Enter Coupon code
+Oct 22,2018 12:59:04 [info]  Click on Apply coupon code button
+Oct 22,2018 12:59:10 [info]  Click on Checkout button
+Oct 22,2018 12:59:16 [info]  Wait for Updating Spinner
+Oct 22,2018 12:59:46 [info]  Assert Listing Confirmation Page
+Oct 22,2018 12:59:50 [info]  Click on More Hamburger Button
+Oct 22,2018 12:59:56 [info]  Assert Hamburger listing and close icon
+Oct 22,2018 13:00:02 [info]  Click on Sign out of My Trader link
+Oct 22,2018 13:00:13 [info]  Assert successfully signout
+Oct 22,2018 13:00:24 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 13:00:44 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 13:00:44 [info]  Click on More Hamburger Button
+Oct 22,2018 13:00:50 [info]  Assert Hamburger listing and close icon
+Oct 22,2018 13:00:50 [info]  Welcome to My Trader text on My Trader page
+Oct 22,2018 13:01:02 [info]  Click On Join My Trader Button
+Oct 22,2018 13:01:13 [info]  Get Password
+Oct 22,2018 13:01:13 [info]  Get Re-password
+Oct 22,2018 13:01:13 [info]  Enter Email ID
+Oct 22,2018 13:01:14 [info]  Enter Password
+Oct 22,2018 13:01:14 [info]  Enter Re-Password
+Oct 22,2018 13:01:14 [info]  Click On Join My Tader Button at Join Trader page
+Oct 22,2018 13:01:25 [info]  Welcome to My Trader text on My Trader page
+Oct 22,2018 13:01:31 [info]  Click on application logo in header
+Oct 22,2018 13:01:39 [info]  Search tab enabled
+Oct 22,2018 13:01:49 [info]  Get Keyword
+Oct 22,2018 13:01:49 [info]  Get Zip Code
+Oct 22,2018 13:01:49 [info]  Get Radius
+Oct 22,2018 13:01:49 [info]  Enter KeyWord
+Oct 22,2018 13:01:49 [info]  Select Options from suggestion
+Oct 22,2018 13:01:59 [info]  Enter Zip Code
+Oct 22,2018 13:01:59 [info]  Select Radius
+Oct 22,2018 13:02:05 [info]  Click on find button
+Oct 22,2018 13:02:30 [info]  Ad's Search Result page.
+Oct 22,2018 13:02:36 [info]  Click On Save listings link And Assert saved Listings
+Oct 22,2018 13:02:52 [info]  Click On Saved Icon in header section
+Oct 22,2018 13:03:30 [info]  Click on More Hamburger Button
+Oct 22,2018 13:03:36 [info]  Assert Hamburger listing and close icon
+Oct 22,2018 13:03:42 [info]  Click on Sign out of My Trader link
+Oct 22,2018 13:03:52 [info]  Assert successfully signout
+Oct 22,2018 13:04:02 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 13:04:14 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 13:04:14 [info]  Click on More Hamburger Button
+Oct 22,2018 13:04:20 [info]  Assert Hamburger listing and close icon
+Oct 22,2018 13:04:20 [info]  Welcome to My Trader text on My Trader page
+Oct 22,2018 13:04:35 [info]  Click On Join My Trader Button
+Oct 22,2018 13:04:44 [info]  Get Password
+Oct 22,2018 13:04:44 [info]  Get Re-password
+Oct 22,2018 13:04:44 [info]  Enter Email ID
+Oct 22,2018 13:04:45 [info]  Enter Password
+Oct 22,2018 13:04:45 [info]  Enter Re-Password
+Oct 22,2018 13:04:45 [info]  Click On Join My Tader Button at Join Trader page
+Oct 22,2018 13:04:55 [info]  Welcome to My Trader text on My Trader page
+Oct 22,2018 13:05:01 [info]  Click on application logo in header
+Oct 22,2018 13:05:09 [info]  Get Keyword
+Oct 22,2018 13:05:09 [info]  Get Zip Code
+Oct 22,2018 13:05:09 [info]  Get Radius
+Oct 22,2018 13:05:09 [info]  Enter KeyWord
+Oct 22,2018 13:05:09 [info]  Select Options from suggestion
+Oct 22,2018 13:05:19 [info]  Enter Zip Code
+Oct 22,2018 13:05:19 [info]  Select Radius
+Oct 22,2018 13:05:25 [info]  Click on find button
+Oct 22,2018 13:05:44 [info]  Ad's Search Result page.
+Oct 22,2018 13:05:50 [info]  Click On Save This Search And Assert Saved Search
+Oct 22,2018 13:06:10 [info]  Click On Saved Icon in header section
+Oct 22,2018 13:06:40 [info]  Click on More Hamburger Button
+Oct 22,2018 13:06:46 [info]  Assert Hamburger listing and close icon
+Oct 22,2018 13:06:52 [info]  Click on Sign out of My Trader link
+Oct 22,2018 13:07:01 [info]  Assert successfully signout
+Oct 22,2018 13:07:12 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 13:07:29 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 13:07:29 [info]  Click on More Hamburger Button
+Oct 22,2018 13:07:35 [info]  Assert Hamburger listing and close icon
+Oct 22,2018 13:07:36 [info]  Welcome to My Trader text on My Trader page
+Oct 22,2018 13:07:49 [info]  Click On Join My Trader Button
+Oct 22,2018 13:07:59 [info]  Get Password
+Oct 22,2018 13:07:59 [info]  Get Re-password
+Oct 22,2018 13:07:59 [info]  Enter Email ID
+Oct 22,2018 13:07:59 [info]  Enter Password
+Oct 22,2018 13:07:59 [info]  Enter Re-Password
+Oct 22,2018 13:07:59 [info]  Click On Join My Tader Button at Join Trader page
+Oct 22,2018 13:08:10 [info]  Welcome to My Trader text on My Trader page
+Oct 22,2018 13:08:16 [info]  Click on application logo in header
+Oct 22,2018 13:08:24 [info]  Search tab enabled
+Oct 22,2018 13:08:34 [info]  Get Keyword
+Oct 22,2018 13:08:34 [info]  Get Zip Code
+Oct 22,2018 13:08:34 [info]  Get Radius
+Oct 22,2018 13:08:34 [info]  Enter KeyWord
+Oct 22,2018 13:08:35 [info]  Select Options from suggestion
+Oct 22,2018 13:08:44 [info]  Enter Zip Code
+Oct 22,2018 13:08:44 [info]  Select Radius
+Oct 22,2018 13:08:50 [info]  Click on find button
+Oct 22,2018 13:09:10 [info]  Ad's Search Result page.
+Oct 22,2018 13:09:16 [info]  Click On Save listings link And Assert saved Listings
+Oct 22,2018 13:09:32 [info]  Click On Saved Icon in header section
+Oct 22,2018 13:10:13 [info]  Click on application logo in header
+Oct 22,2018 13:10:21 [info]  Search tab enabled
+Oct 22,2018 13:10:31 [info]  Get Keyword
+Oct 22,2018 13:10:31 [info]  Get Zip Code
+Oct 22,2018 13:10:31 [info]  Get Radius
+Oct 22,2018 13:10:31 [info]  Enter KeyWord
+Oct 22,2018 13:10:31 [info]  Select Options from suggestion
+Oct 22,2018 13:10:40 [info]  Enter Zip Code
+Oct 22,2018 13:10:40 [info]  Select Radius
+Oct 22,2018 13:10:47 [info]  Click on find button
+Oct 22,2018 13:11:03 [info]  Ad's Search Result page.
+Oct 22,2018 13:11:09 [info]  Click On Save This Search And Assert Saved Search
+Oct 22,2018 13:11:28 [info]  Click On Saved Icon in header section
+Oct 22,2018 13:11:55 [info]  Click on My Trader Home Icon
+Oct 22,2018 13:12:05 [info]  Assert Saved Listing Section
+Oct 22,2018 13:12:05 [info]  Assert Saved Searches Section
+Oct 22,2018 13:12:05 [info]  Click on Edit under Saved Listing Section
+Oct 22,2018 13:12:14 [info]  Click on My Trader Home Icon
+Oct 22,2018 13:12:22 [info]  Click on Edit under Saved Searches Section
+Oct 22,2018 13:12:32 [info]  Click on More Hamburger Button
+Oct 22,2018 13:12:38 [info]  Assert Hamburger listing and close icon
+Oct 22,2018 13:12:44 [info]  Click on Sign out of My Trader link
+Oct 22,2018 13:12:54 [info]  Assert successfully signout
+Oct 22,2018 13:13:05 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 13:13:22 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 13:13:22 [info]  Click on find button
+Oct 22,2018 13:13:40 [info]  Click on any Listing with Price
+Oct 22,2018 13:14:06 [info]  Input all details and estimat payment
+Oct 22,2018 13:14:34 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 13:14:45 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 13:14:45 [info]  Click Login link
+Oct 22,2018 13:14:57 [info]  Get user name
+Oct 22,2018 13:14:57 [info]  Get password
+Oct 22,2018 13:14:57 [info]  Enter Email ID
+Oct 22,2018 13:14:57 [info]  Enter Password
+Oct 22,2018 13:14:57 [info]  Click on Sign in button
+Oct 22,2018 13:15:13 [info]  Welcome to My Trader text on My Trader page
+Oct 22,2018 13:15:19 [info]  Click on Sell A Motorcycle Link
+Oct 22,2018 13:15:32 [info]  Assert Sell A Motorcycle Page
+Oct 22,2018 13:15:32 [info]  Click on More Hamburger Button
+Oct 22,2018 13:15:38 [info]  Assert Hamburger listing and close icon
+Oct 22,2018 13:15:45 [info]  Click on Sign out of My Trader link
+Oct 22,2018 13:15:54 [info]  Assert successfully signout
+Oct 22,2018 13:16:04 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 13:16:19 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 13:16:19 [info]  Click Login link
+Oct 22,2018 13:16:30 [info]  Get user name
+Oct 22,2018 13:16:30 [info]  Get password
+Oct 22,2018 13:16:30 [info]  Enter Email ID
+Oct 22,2018 13:16:30 [info]  Enter Password
+Oct 22,2018 13:16:30 [info]  Click on Sign in button
+Oct 22,2018 13:16:44 [info]  Welcome to My Trader text on My Trader page
+Oct 22,2018 13:16:50 [info]  Click on Account Setting Link
+Oct 22,2018 13:16:58 [info]  Update First name and last name
+Oct 22,2018 13:16:59 [info]  Click on Save Changes Button
+Oct 22,2018 13:17:07 [info]  Assert Updates Changes Confirmation Message
+Oct 22,2018 13:17:07 [info]  Click on More Hamburger Button
+Oct 22,2018 13:17:13 [info]  Assert Hamburger listing and close icon
+Oct 22,2018 13:17:19 [info]  Click on Sign out of My Trader link
+Oct 22,2018 13:17:29 [info]  Assert successfully signout
+Oct 22,2018 13:17:40 [info]  Launching browser chrome 70.0.3538.67
+Oct 22,2018 13:17:51 [info]  open application url: https://traderinteractive-dev.dev.cycletrader.com/
+Oct 22,2018 13:17:51 [info]  Click On Research Menu
+Oct 22,2018 13:18:07 [info]  Assert Research page
+Oct 22,2018 13:18:15 [info]  Click on Learn More button and assert page.
+Oct 22,2018 13:18:53 [info]  Oct 22,2018 13:18:53 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.trader.pagehelper.TraderMenus.clickOnLearnMoreButtonAtResearchPage(TraderMenus.java:100)
+	at com.trader.scripts.SmokeTest.assertLearnMoreButtonPages(SmokeTest.java:947)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
