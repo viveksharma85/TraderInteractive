@@ -8,6 +8,10 @@ import com.trader.utils.DriverTestCase;
 
 public class DealersPage extends DriverTestCase {
 
+
+sghdjasgfdjhasgcjhs
+nmxbcnbxmcbxzcb 
+
 	/**
 	 * ATD-112: 'Find Motorcycle Dealers' page should be opened when click on 'Find
 	 * Motorcycle Dealers' under search tab at home page.
